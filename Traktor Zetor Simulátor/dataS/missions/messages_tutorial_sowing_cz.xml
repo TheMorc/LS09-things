@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    
+    <message id="1">
+        <title>Semena nejsou zadarmo.</title>
+        <content>
+<![CDATA[Pokud právě sejete, cena semena automaticky 
+snižuje váš kapitál.]]>
+        </content>
+        <duration>5000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Co chcete zasít?</title>
+        <content>
+<![CDATA[V módu "Kariéra" můžete vybrat podle svého 
+uvážení typ semena z následujícího výběru: pšenice, 
+řepka olejná, kukuřice a trávu. 
+
+V tutoriálu jsme limitování pouze na ječmen. ]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+</messages>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<missions>
+    <mission id="1">
+        <name>Překážková dráha (1 část)</name>
+        <time>10</time>
+        <description>
+<![CDATA[V tomto úkolu si vyzkoušíme, jak dobře dokážeš řídit traktor. Tvým úkolem bude
+co nejrychleji projet překážkovou dráhu tak, aby jsi projel všemi překážkami a
+nevynechal ani jeden kontrolní bod. Pomůže ti vodící čára na zemi.]]>
+        </description>
+        <image active="dataS/missions/mission_race1a.png"/>
+        <script filename="dataS/missions/mission_race1.lua" class="MissionRace1"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_race1_briefing_cz.png</briefing>
+        <bronze>240</bronze>
+        <silver>120</silver>
+        <gold>80</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="2">
+        <name>Vyhlídková jízda (Severní část ostrova)</name>
+        <time>10</time>
+        <description>
+<![CDATA[Dvacet zajímavých míst jsme vyznačili na mapě a uložili do tvého PDA. 
+Na tobě bude, aby jsi je všechny navštívil. Nezáleží na pořadí jaké si zvolíš. 
+Všimni si, že nejbližší místo bude na tvé PDA obrazovce blikat.]]>
+        </description>
+        <image active="dataS/missions/mission_exploration1a.png"/>
+        <script filename="dataS/missions/mission_exploration1.lua" class="MissionExploration1"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_exploration1_briefing_cz.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="3">
+        <name>Překážková dráha (2 část)</name>
+        <time>14</time>
+        <description>
+<![CDATA[Je čas na další překážkovou dráhu. Tentokrát bude ale složitější, 
+jelikož za traktorem bude připojený přívěs.]]>
+        </description>
+        <image active="dataS/missions/mission_race2a.png"/>
+        <script filename="dataS/missions/mission_race2.lua" class="MissionRace2"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_race2_briefing_cz.png</briefing>
+        <bronze>300</bronze>
+        <silver>140</silver>
+        <gold>80</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+    <mission id="4">
+        <name>Vyhlídková jízda (Jižní část ostrova)</name>
+        <time>16.75</time>
+        <description>
+<![CDATA[Byl jsi pozván na prohlídku jižní části ostrova. Jeď podle 
+vyznačených bodů na vašem PDA ve stanoveném časovém limitu.]]>
+        </description>
+        <image active="dataS/missions/mission_exploration2a.png"/>
+        <script filename="dataS/missions/mission_exploration2.lua" class="MissionExploration2"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_exploration2_briefing_cz.png</briefing>
+        <bronze>660</bronze>
+        <silver>480</silver>
+        <gold>300</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="5">
+        <name>Výuková mise 1: Orba</name>
+        <time>10</time>
+        <description>
+<![CDATA[Série výukových úkolů tě provede nezbytnými kroky ke zvládnutí kultivace
+tvých polí. V první části musíš zbrázdit a zorat půdu a připravit ji setí semen.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_ploughinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_ploughing.lua" class="MissionTutorialPloughing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_ploughing_briefing_cz.png</briefing>
+        <bronze>780</bronze>
+        <silver>450</silver>
+        <gold>360</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="6">
+        <name>Výuková mise 2: Setba</name>
+        <time>10</time>
+        <description>
+<![CDATA[Nyní jsi připraven postoupit k dalšímu kroku: Připoj secí stroj za tvůj
+traktor a pusť se na poli do setí.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_sowinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_sowing.lua" class="MissionTutorialSowing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_sowing_briefing_cz.png</briefing>
+        <bronze>720</bronze>
+        <silver>510</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="7">
+        <name>Kameny v mlze</name>
+        <time>6.5</time>
+        <description>
+<![CDATA[Několik velikých kamenů a balvanů opravdu překáží v práci na poli. Odval je z pole. 
+Hustá mlha ti sice brání v rychlé orientaci, ale můžeš se spolehnout na PDA, 
+které ti dostatečně zobrazí polohu oněch balvanů.]]>
+        </description>
+        <image active="dataS/missions/mission_rocksa.png"/>
+        <script filename="dataS/missions/mission_rocks.lua" class="MissionRocks"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_rocks_briefing_cz.png</briefing>
+        <bronze>480</bronze>
+        <silver>240</silver>
+        <gold>120</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="8">
+        <name>Výuková mise 3: Postřik</name>
+        <time>10</time>
+        <description>
+<![CDATA[Ječmen, který jsi zasel, již zcela vyrostl. Aby jsi získal co největší úrodu, 
+potřebuješ pole ošetřit postřikem pomocí neseného postřikovače.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_sprayinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_spraying.lua" class="MissionTutorialSpraying"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_spraying_briefing_cz.png</briefing>
+        <bronze>360</bronze>
+        <silver>180</silver>
+        <gold>90</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="9">
+        <name>Rozvoz lahví</name>
+        <time>17.9</time>
+        <description>
+<![CDATA[Po celém ostrově je spousta rozházených plastových lahví. Kdy jindy je můžeš
+posbírat nežli dnes. Seber několik z nich a vhoď je do připraveného kontejneru.]]>
+        </description>
+        <image active="dataS/missions/mission_bottlesa.png"/>
+        <script filename="dataS/missions/mission_bottles.lua" class="MissionBottles"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_bottles_briefing_cz.png</briefing>
+        <bronze>900</bronze>
+        <silver>360</silver>
+        <gold>180</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="10">
+        <name>Výuková mise 4: Mlácení</name>
+        <time>10</time>
+        <description>
+<![CDATA[Nadešel dlouho očekávaný den sklizně. Nasedni na kombajn a skliď svou úrodu. 
+Jakmile budeš mít na kombajnu plný zásobník, vyprázdni jej na nedaleký valník.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_threshinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_threshing.lua" class="MissionTutorialThreshing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_threshing_briefing_cz.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>180</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="11">
+        <name>Výuková mise 5: Kultivace půdy</name>
+        <time>10</time>
+        <description>
+<![CDATA[Posledním krokem jak završit vegetační cyklus na polích je připravit posečené 
+pole na nové osetí. Zapoj za traktor kultivátor a hurá na pole. A jako obvykle, 
+nejezdi moc rychle jinak se může stát, že se ti vysmekne z traktoru. ]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_cultivatinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_cultivating.lua" class="MissionTutorialCultivating"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_cultivating_briefing_cz.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>210</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="12">
+        <name>Vysoké stohování</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Vsadil ses se sousedem, že dokážeš nakupit na sebe minimálně tři palety hnojiva
+za méně než 4 minuty. Chytrák soused chce nyní vidět, jak tohle dokážeš udělat.]]>
+        </description>
+        <image active="dataS/missions/mission_stackinga.png"/>
+        <script filename="dataS/missions/mission_stacking.lua" class="MissionStacking"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_stacking_briefing_cz.png</briefing>
+        <bronze>3</bronze>
+        <silver>5</silver>
+        <gold>6</gold>
+        <mission_type>stacking</mission_type>
+    </mission>
+    
+    <mission id="13">
+        <name>Noční sklizeň</name>
+        <time>17.9</time>
+        <description>
+<![CDATA[Lokální předpověď počasí hlásí během noci výskyt bouřek v naší oblasti. 
+Nasedni na kombajn a skliď celé pole ještě před změnou počasí.]]>
+        </description>
+        <image active="dataS/missions/mission_nightThreshinga.png"/>
+        <script filename="dataS/missions/mission_nightThreshing.lua" class="MissionNightThreshing"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_nightThreshing_briefing_cz.png</briefing>
+        <bronze>720</bronze>
+        <silver>600</silver>
+        <gold>480</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="14">
+        <name>Zbytky</name>
+        <time>12.5</time>
+        <description>
+<![CDATA[Minulou noc skupina neukázněných turistů zanechala několik sudů na parkovišti 
+u pláže. Vyčisti celý prostor tak, aby nezbyl jediný barel na asfaltu.]]>
+        </description>
+        <image active="dataS/missions/mission_beerKegsa.png"/>
+        <script filename="dataS/missions/mission_beerKegs.lua" class="MissionBeerKegs"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_beerKegs_briefing_cz.png</briefing>
+        <bronze>540</bronze>
+        <silver>420</silver>
+        <gold>300</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="15">
+        <name>Lis na balíky</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Měl jsi štěstí na počasí a tak sláma na tvých posečených polích několik dní 
+pěkně usychala. Teď je čas slámu nalisovat do balíků. Tvým úkolem je nalisovat
+alespoň 20 balíků. Při lisování se drž řad slámy, které leží na po]]>
+        </description>
+        <image active="dataS/missions/mission_balinga.png"/>
+        <script filename="dataS/missions/mission_baling.lua" class="MissionBaling"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_baling_briefing_cz.png</briefing>
+        <bronze>480</bronze>
+        <silver>390</silver>
+        <gold>280</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="16">
+        <name>Závod s deštěm</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Chystáte se odvézt poslední balíky slámy do stodoly a opět se kazí počasí.
+Dopravte alespoň 4 balíky do stodoly ještě dříve než zmoknou.]]>
+        </description>
+        <image active="dataS/missions/mission_strawElevatora.png"/>
+        <script filename="dataS/missions/mission_strawElevator.lua" class="MissionStrawElevator"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_strawElevator_briefing_cz.png</briefing>
+        <bronze>4</bronze>
+        <silver>5</silver>
+        <gold>7</gold>
+        <mission_type>strawElevatoring</mission_type>
+    </mission>
+    
+    <mission id="17">
+        <name>Sečení trávy</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Louka za tvou farmou potřebuje posekat. Je to skvělá možnost jak si vyzkoušet
+rotační sekačku a samosběrací vůz.]]>
+        </description>
+        <image active="dataS/missions/mission_grassMowinga.png"/>
+        <script filename="dataS/missions/mission_grassMowing.lua" class="MissionGrassMowing"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_grassMowing_briefing_cz.png</briefing>
+        <bronze>720</bronze>
+        <silver>360</silver>
+        <gold>270</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+</missions>

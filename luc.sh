@@ -15,7 +15,7 @@ do
 	echo "original file =" ${i}
     file_start=${i/dataS/dataS_lua} 
     file_end=${file_start/%.*/.lua}
-    java -jar unluac_2021_09_23.jar ${i} > ${file_end}
+    java -jar unluac.jar ${i} > ${file_end}
     echo "end file =" ${file_end}
     echo "------------------"
 done

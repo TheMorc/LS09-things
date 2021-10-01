@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+     <message id="1">
+        <title>Výkupna</title>
+        <content>
+<![CDATA[Jakmile nalezneš nekolik lahví, mužeš je vrátit 
+zpátky na své místo. 
+
+Na ostrove je nekolik z techto kontejneru. Všechny 
+jsou vyznaceny na mape ve tvém PDA.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Per Pedes</title>
+        <content>
+<![CDATA[Naložit láhev mužeš pouze tehdy, pokud stojíš 
+presne na míste. 
+
+Pro presun na velkou vzdálenost mužeš použít 
+samozrejme vuz.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Udržuj ostrov cistý!</title>
+        <content>
+<![CDATA[Pokud se nacházíš v módu "Kariéra" mužeš sbírat
+a vracet láhve tak jak budeš chtít. 
+
+Za každou vrácenou láhev dostaneš  malý profit a 
+tvá povest na ostrove poroste.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Úkol s láhvemi</title>
+        <content>
+<![CDATA[V módu "Kariéra" musí být nalezeno na 100 lahví.
+
+Bohužel, pouze v této misi je uvidíš na mape ve 
+tvém PDA.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Povest</title>
+        <content>
+<![CDATA[Tvoji povest samozrejme ovlivnuje kolik penez 
+dokážeš získat zpátky z prodeje staré mechanizace a 
+stroju nebo kolik stroju zavezeš na odkup obchodníkovi.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="6">
+        <title>Malá rada</title>
+        <content>
+<![CDATA[Nekteré láhve mohou být podány neprímo.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+</messages>

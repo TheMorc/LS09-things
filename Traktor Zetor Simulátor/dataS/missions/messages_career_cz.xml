@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+     
+     <message id="1">
+        <title>Vedlejší úkol: Dodávka hnojiva</title>
+        <content>
+<![CDATA[Pokud vlastníš přední nakladač s paletovou vidlicí, 
+můžeš přesunout palety s hnojivem na vyznačené místo
+za supermarketem. 
+
+Za každou odvezenou paletu dostaneš zaplaceno a tvé 
+renomé se zvýší.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Vedlejší úkol: Vrácení lahví</title>
+        <content>
+<![CDATA[Na ostrově je rozházeno 100 lahví. Pokud je vrátíš
+do výkupny, obdržíš samozřejmě odpovídající částku 
+peněz a opět se zvýší tvé renomé.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Prodejce zemědělské techniky</title>
+        <content>
+<![CDATA[Zde můžeš nakoupit a prodat zemědělskou techniku a
+stroje. Postav se na místo před vstupem a uvidíš 
+jaké produkty jsou k dispozici.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Vítej na své farmě!</title>
+        <content>
+<![CDATA[Díky neočekávanému dědictví se stáváš majitelem 
+známe farmy spolu s několika stroji a zařízeními.
+Máš přesně to co potřebuješ, aby ses stal 
+úspěšným farmářem.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Skromné začátky</title>
+        <content>
+<![CDATA[Jakmile začneš hospodařit na farmě zjistíš, 
+že tvé stroje a zařízení jsou z velké míry staré 
+a rozviklané kusy. Až budeš mít více peněz, 
+najdi obchod se zemědělskou technikou a kup 
+nové a lepší.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="100">
+        <title>GRATULUJEME!</title>
+        <content>
+<![CDATA[Dosáhli jste maximální úrovně reputace 100%! 
+
+Obchodník se zemědělskou technikou vám ihned zaplatí 
+85% z tržní ceny, pokud budete cokoli prodávat.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="101">
+        <title>Dosáhl jsi maximálního výsledku!</title>
+        <content>
+<![CDATA[Tvé renomé je již na maximální úrovni.]]>
+        </content>
+        <duration>4000</duration>
+    </message>
+
+</messages>

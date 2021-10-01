@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    
+    <message id="1">
+        <title>Přístav</title>
+        <content>
+<![CDATA[Přístav přijímá všechny druhy obilí avšak jeho 
+výkupní cena je nižší nežli nabízejí v pivovaru či ve 
+mlýně.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+
+    <message id="2">
+        <title>Kamenný kruh</title>
+        <content>
+<![CDATA[Kamenný kruhy jsou prastaré lidské výtvory, 
+které můžete na ostrově najít. 
+
+O jejich stavitelích toho mnoho nevíme, ale existují 
+originální stavební postupy o jejich správnosti se však 
+spekuluje.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Pohledy přes kameru</title>
+        <content>
+<![CDATA[Klávesou C můžete přepínat mezi vnitřní a 
+vnější kamerou. Vzdálenost vnější kamery od vozidla 
+můžete upravit kolečkem myši.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Mlýn</title>
+        <content>
+<![CDATA[V módu "Kariéra" zde můžete vykládat pšenici, 
+ječmen a řepku olejnou. 
+
+Informace o tom, kdo vám za vaše jednotlivé druhy obilí, 
+zaplatí nejvíce naleznete ve vašem PDA.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Obchodní s mechanizací</title>
+        <content>
+<![CDATA[V módu "Kariéra" můžete investovat vaše těžce 
+vydělané peníze do modernizace strojů a zařízení na 
+vaší farmě. 
+
+V závislosti na vaší pověsti, dostanete větší sumu 
+peněz od obchodníka pokud něco prodáte.]]>
+        </content>
+        <duration>12000</duration>
+    </message>
+    
+    <message id="9">
+        <title>UPOZORNĚNÍ!</title>
+        <content>
+<![CDATA[Řiďte opatrně!]]>
+        </content>
+        <duration>5000</duration>
+    </message>
+    
+</messages>

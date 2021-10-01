@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    <message id="1">
+        <title>Pivovar</title>
+        <content>
+<![CDATA[Místní pivovar. 
+V módu "Kariéra" můžeš vyložit ječmen a pšenici v pivovaru. 
+Kolik peněz ti zaplatí záleží na jiných okolnostech nebo 
+i na dni v týdnu.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+
+    <message id="2">
+        <title>Centrum vesnice</title>
+        <content>
+<![CDATA[Mnoho obyvatel žijících na ostrově sem uteklo ze 
+stresující atmosféry městského života. 
+
+Nejsou zcela připraveni na to jak se obejít automobilů, 
+bez ježdění stále dokola někam.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="3">
+        <title>"Payzan Flora"</title>
+        <content>
+<![CDATA[Rodina Payzanů tento obchod provozuje již po dvě 
+generace. 
+
+V módu "KARIÉRA" dostanete také příležitost dodávat palety s 
+hnojivem do supermarketu.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Pole</title>
+        <content>
+<![CDATA[Život na ostrově je silně spjat se zemědělstvím. 
+Obdělávej pole a vydělané peníze z úrody investuj do 
+vybavení farmy.]]>
+        </content>
+        <duration>9000</duration>
+    </message>
+    
+    <message id="5">
+        <title>TRAKTOR neumí plavat!</title>
+        <content>
+<![CDATA[Buďte opatrní a nejezděte příliš hluboko do vody 
+nebo také můžete ztratit své vozidlo v moři. 
+
+V módu "Kariéra" můžete vrátit potopené či uvízlé vozidlo 
+zpátky na farmu tak, že kliknete na tlačítko "Resetovat 
+vozidlo".]]>
+        </content>
+        <duration>12000</duration>
+    </message>
+    
+    <message id="6">
+        <title>Vítejte na ostrově!</title>
+        <content>
+<![CDATA[V tomto úkolu tě zavedeme na několik míst na 
+ostrově. Poskytneme ti několik rad a pokynů, které se 
+ti budou hodit při hraní hry. 
+
+Máš už aktivovanou svou mapu na PDA (I)? 
+
+Textové zprávy vymažeš levým tlačítkem myši.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="7">
+        <title>Supermarket</title>
+        <content>
+<![CDATA[Hlavní nákupní centrum na ostrově je supermarket. 
+Velká část zboží je zde importována z pevniny.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+    
+    <message id="9">
+        <title>Skate Park</title>
+        <content>
+<![CDATA[Přestože je tento park určen pouze pro skateboardisty, 
+zkuste si také nějaké slavné figury i s vaším traktorem. 
+Třeba fakei 360, frontside pop, show-it a další.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+</messages>

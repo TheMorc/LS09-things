@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<i10n>
+    <currency factor="1" />
+    <speed factor="1.6093426" />
+    <fluidUnit factor="0.264172" />
+    <texts>
+        <text name="mission02Goal" text="Balíky sena"/>
+        <text name="mission11Goal" text="Kmeny stromů"/>
+        <text name="Key" text="Klávesa"/>
+        <text name="or" text="nebo"/>
+        <text name="Button" text="Tlačítko"/>
+        <text name="Turn_on_lights" text="Zapnout světla"/>
+        <text name="Dump" text="Vyklopit"/>
+        <text name="Attach" text="Připojit"/>
+        <text name="lift_OBJECT" text="Zvednout %s"/>
+        <text name="lower_OBJECT" text="Spustit %s"/>
+        <text name="Enter" text="Nasednout"/>
+        <text name="turn_off_OBJECT" text="Vypojit %s"/>
+        <text name="turn_on_OBJECT" text="Napojit %s"/>
+        <text name="turn_off" text="Vypnout"/>
+        <text name="turn_on" text="Spustit"/>
+        <text name="fold_OBJECT" text="Sklopit %s "/>
+        <text name="unfold_OBJECT" text="Vyklopit %s"/>
+        <text name="Refuel" text="Natankovat"/>
+        <text name="Time" text="Čas"/>
+        <text name="minutes" text="minuty"/>
+        <text name="Change_tools" text="Změnit nástroje"/>
+        <text name="Dont_drive_to_depth_into_the_water" text="Nejezdit skrz hlubokou vodu"/>
+        <text name="Mission_is_loading_please_wait" text="Načítám misi, prosím čekejte ..."/>
+        <text name="Game_is_loading_please_wait" text="Načítám uloženou hru, prosím čekejte ..."/>
+        <text name="Dont_drive_to_fast" text="Nejezděte příliš rychle"/>
+        <text name="Cruise_control_levelN" text="Projet kontrolní level %s: klávesa %s"/>
+        <text name="Dont_do_threshing_during_rain_or_hail" text="Nemlaťte za deště nebo bouřky"/>
+        <text name="Turn_plough" text="Otočte pluh"/>
+        <text name="Turn_on_cutter" text="Nasadit sekačku"/>
+        <text name="Turn_off_cutter" text="Odpojit sekačku"/>
+        <text name="Turn_on_mower" text="Nasadit žací stroj"/>
+        <text name="Turn_off_mower" text="Odpojit žací stroj"/>
+        <text name="Pipe_in" text="Spustit rameno"/>
+        <text name="Dump_corn" text="Pustit obilí"/>
+        <text name="Dump_corn_to_continue_threshing" text="Obilný zásobník je prázdný, připraveno k mlácení"/>
+        <text name="Move_the_pipe_over_a_trailer" text="Vysunout rameno nad přívěs"/>
+        <text name="Session" text="Úkol"/>
+        <text name="Total" text="Celkem"/>
+        <text name="Seed" text="Semeno"/>
+        <text name="Seeds" text="Semena"/>
+        <text name="Threshing" text="Mlácení"/>
+        <text name="Wheat_storage" text="Sklad pšenice"/>
+        <text name="Barley_storage" text="Sklad ječmene"/>
+        <text name="Rapeseed_storage" text="Sklad řepky olejné"/>
+        <text name="Maize_storage" text="Sklad kukuřice"/>
+        <text name="Corn_sold" text="Kukuřice prodána"/>
+        <text name="Fuel" text="Spotřeba paliva"/>
+        <text name="Distance" text="Vzdálenost"/>
+        <text name="Revenue" text="Výnos"/>
+        <text name="Expenses" text="Náklady"/>
+        <text name="Profit" text="Zisk"/>
+        <text name="Duration" text="Pracovní doba"/>
+        <text name="Record" text="Rekord"/>
+        <text name="Bronze" text="Bronz"/>
+        <text name="Silver" text="Stříbro"/>
+        <text name="Gold" text="Zlato"/>
+        <text name="This_savegame_is_currently_unused" text="Uložená pozice nelze načíst"/>
+        <text name="Money" text="Peníze"/>
+        <text name="In_game_time" text="Čas ve hře"/>
+        <text name="Save_date" text="Čas uložení"/>
+        <text name="Savegame" text="Uložená pozice"/>
+        <text name="Currency_symbol" text="$"/>
+        <text name="Measuring_unit" text="km"/>
+        <text name="fluid_unit_short" text="l"/>
+        <text name="fluid_unit_long" text="litr"/>
+        <text name="speedometer" text="km/h"/>
+        <text name="mission14Goal" text="Zbývající nářadí"/>
+        <text name="missionStationFill" text="Zbývající kilogramy"/>
+        <text name="Resolution" text="Rozlišení obrazovky"/>
+        <text name="MSAA" text="Antialiasing"/>
+        <text name="AnisotropicFiltering" text="Anisotropní filtrování"/>
+        <text name="JoystickGamepad" text="Nastavení volantu nebo gamepadu"/>
+        <text name="HardwareProfile" text="Hardwarový profil"/>
+        <text name="TimeScale" text="Časové měřítko"/>
+        <text name="AutomaticHelp" text="Automatická pomoc"/>
+        <text name="Store" text="Obchod s mechanizací"/>
+        <text name="Capital" text="Kapitál"/>
+        <text name="Reputation" text="Pověst"/>
+        <text name="Bottles" text="Láhve"/>
+        <text name="PDATitle1" text="Mapa"/>
+        <text name="PDATitle2" text="Předpověď počasí"/>
+        <text name="PDATitle3" text="Ceny"/>
+        <text name="PDATitle4" text="Statistika"/>
+        <text name="Day1" text="PO"/>
+        <text name="Day2" text="ÚT"/>
+        <text name="Day3" text="ST"/>
+        <text name="Day4" text="ČT"/>
+        <text name="Day5" text="PÁ"/>
+        <text name="Day6" text="SO"/>
+        <text name="Day7" text="NE"/>
+        <text name="TemperatureSymbol" text="°C"/>
+        <text name="hotspotMissionGoal" text="Počet zbývajících míst:"/>
+        <text name="beerKegsMissionGoal" text="Počet zbývajících sudů:"/>
+        <text name="bottlesMissionGoal1" text="Počet sebraných lahví:"/>
+        <text name="bottlesMissionGoal2" text="Počet vrácených lahví:"/>
+        <text name="rocksMissionGoal" text="Kameny jsou stále na poli:"/>
+        <text name="palletsMissionGoal" text="Zaplněné palety:"/>
+        <text name="strawElevatorMissionGoal" text="Dopravené balíky:"/>
+        <text name="balingMissionGoal" text="Nabaleno balíků:"/>
+        <text name="mowingGrassMissionGoal" text="Posečená tráva [kg]:"/>
+        <text name="stackSize" text="Výška hráně:"/>
+        <text name="pallets" text="Palet(y) "/>
+        <text name="bales" text="Balíky(ů)"/>
+        <text name="ChooseSeed" text="Vyber semeno"/>
+        <text name="StationPort" text="Přístav"/>
+        <text name="StationBrewery" text="Pivovar"/>
+        <text name="StationMill" text="Mlýn"/>
+        <text name="PricePerTon" text="[€/t]"/>
+        <text name="wheat" text="Pšenice"/>
+        <text name="barley" text="Ječmen"/>
+        <text name="rape" text="Řepka olejná"/>
+        <text name="maize" text="Kukuřice"/>
+        <text name="grass" text="Tráva"/>
+        <text name="notAcceptedHere" text="tady nelze přijmout!"/>
+        <text name="fieldMissionGoal" text="Úkol %d%% byl splněn"/>
+        <text name="Mower" text="sekačka"/>
+        <text name="Difficulty" text="Obtížnost"/>
+        <text name="Diff1" text="Snadná"/>
+        <text name="Diff2" text="Běžná"/>
+        <text name="Diff3" text="Těžká"/>
+        <text name="ChooseDifficulty" text="Prosím, zvolte obtížnost hry:"/>
+        <text name="StoreNoSpace" text="Nedostatek volného prostoru! Nejdříve odstraňte zakoupené položky."/>
+        <text name="StorePurchaseReady" text="Nyní můžete dokončit svou objednávku."/>
+        <text name="HireEmployee" text="Najmout pracovníka"/>
+        <text name="DismissEmployee" text="Propustit pracovníka"/>
+        <text name="YouWantToDeleteThat" text="Opravdu si přejete
+odstranit uloženou pozici?"/>
+        <text name="DontForgetToSave" text="Opravdu si přejete ukončit
+hru bez uložení pozice?"/>
+        <text name="YouWantToResetVehicles" text="Přejete si resetovat 
+traktory?"/>
+        <text name="MissionWantToEnd" text="Opravdu si přejete
+ukončit tento úkol?"/>
+        <text name="shortDate" text="%d.%m.%Y" />
+        <text name="settingsLow" text="Nízká" />       
+        <text name="settingsMedium" text="Střední" />       
+        <text name="settingsHigh" text="Vysoká" />       
+        <text name="settingsVeryHigh" text="Maximální" />
+        <text name="settingsRealtime" text="Reálný čas" />
+        <text name="settingsOff" text="Vypnuto" />        
+        <text name="Turn_on_warning_lights" text="Zapnout výstražná světla" />        
+        <text name="Turn_off_warning_lights" text="Vypnout výstražná světla" />        
+    </texts>
+</i10n>
