@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    <message id="1">
+        <title>Brewery</title>
+        <content>
+<![CDATA[This is the local brewery.
+In the career mode you can unload barley and wheat here.
+How much money you are paid depends, among other things,
+on the day of the week.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+
+    <message id="2">
+        <title>Village Center</title>
+        <content>
+<![CDATA[Many of the residents moved here to get away from the
+stressful city life.
+
+They were not quite ready to ditch their cars, though,
+as they enjoy driving around frequently.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="3">
+        <title>"Payzan Flora"</title>
+        <content>
+<![CDATA[The Payzan family has been running this garden center
+for over two generations.
+
+In the career mode you sometimes get the opportunity
+to transport some pallets with fertilizer to the
+supermarket.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Fields</title>
+        <content>
+<![CDATA[The island mainly lives off agriculture. You can
+cultivate fields like these and invest the gained money
+in better farm machinery.]]>
+        </content>
+        <duration>9000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Tractors Can't Swim!</title>
+        <content>
+<![CDATA[Pay attention not to drive too deeply into the water
+or you will run the risk of losing your vehicle to the sea.
+
+In the career mode you can reset sunken or stuck vehicles
+back to your farm by clicking the "Reset Vehicles" option
+in the menu.]]>
+        </content>
+        <duration>12000</duration>
+    </message>
+    
+    <message id="6">
+        <title>Welcome to the Island!</title>
+        <content>
+<![CDATA[This mission leads you to several landmarks of the island
+and gives you a few hints about the game.
+
+Have you activated the PDA map (I) yet?
+
+You can remove text messages like this one by pressing
+the left mouse button.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="7">
+        <title>Supermarket</title>
+        <content>
+<![CDATA[This is the major shopping center of the island.
+A large part of its goods are imported from the mainland.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+    
+    <message id="9">
+        <title>Skating Park</title>
+        <content>
+<![CDATA[Even though this park is intended for skateboards only,
+you can also try to do a fakie 360 frontside pop shove-it
+with your tractor.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+</messages>

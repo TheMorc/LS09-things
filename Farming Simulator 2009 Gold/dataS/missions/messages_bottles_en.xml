@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+     <message id="1">
+        <title>Bottle Bank</title>
+        <content>
+<![CDATA[As soon as you've found a couple of bottles, you can
+return them here.
+
+There are several of these containers on the island. They
+are all marked on your PDA map.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="2">
+        <title>On foot</title>
+        <content>
+<![CDATA[You can only pick up bottles when you're on foot.
+
+To travel larger distances you can drive a vehicle,
+of course.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Keep the Island Clean!</title>
+        <content>
+<![CDATA[When playing in the career mode you can collect and return
+bottles as well.
+
+For each returned bottle you get a small fee, and your
+reputation on the island goes up.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Bottle Quest</title>
+        <content>
+<![CDATA[There are 100 bottles to be found in the career mode.
+
+Alas, only in this mission the bottles are visible on your
+PDA map.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Reputation</title>
+        <content>
+<![CDATA[Your reputation affects how much money you get back
+when you sell an old vehicle or implement to the farm
+machines trader.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="6">
+        <title>A Small Hint</title>
+        <content>
+<![CDATA[Some bottles can only be reached indirectly.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+    
+    
+</messages>

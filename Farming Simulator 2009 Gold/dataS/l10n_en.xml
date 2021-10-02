@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<i10n>
+    <currency factor="1" />
+    <speed factor="1.6093426" />
+    <fluidUnit factor="0.264172" />
+    <texts>
+        <text name="mission02Goal" text="Hay bales"/>
+        <text name="mission11Goal" text="Tree trunks"/>
+        <text name="Key" text="Key"/>
+        <text name="or" text="or"/>
+        <text name="Button" text="Button"/>
+        <text name="Turn_on_lights" text="Turn on lights"/>
+        <text name="Dump" text="Dump"/>
+        <text name="Attach" text="Attach"/>
+        <text name="lift_OBJECT" text="Lift %s"/>
+        <text name="lower_OBJECT" text="Lower %s"/>
+        <text name="Enter" text="Enter"/>
+        <text name="turn_off_OBJECT" text="Turn %s off"/>
+        <text name="turn_on_OBJECT" text="Turn %s on"/>
+        <text name="turn_off" text="turn off"/>
+        <text name="turn_on" text="turn on"/>
+        <text name="fold_OBJECT" text="Fold %s"/>
+        <text name="unfold_OBJECT" text="Unfold %s"/>
+        <text name="Refuel" text="Refuel"/>
+        <text name="Time" text="Time"/>
+        <text name="minutes" text="minutes"/>
+        <text name="Change_tools" text="Change tools"/>
+        <text name="Dont_drive_to_depth_into_the_water" text="   Do not drive into deep water"/>
+        <text name="Mission_is_loading_please_wait" text=" Loading mission, please wait ..."/>
+        <text name="Game_is_loading_please_wait" text="Loading savegame, please wait ..."/>
+        <text name="Dont_drive_to_fast" text="    Do not drive too fast"/>
+        <text name="Cruise_control_levelN" text="Cruise control level %s: Key %s"/>
+        <text name="Dont_do_threshing_during_rain_or_hail" text="Do not thresh during rain or hail"/>
+        <text name="Turn_plough" text="Turn plow"/>
+        <text name="Turn_on_cutter" text="Turn on cutter"/>
+        <text name="Turn_off_cutter" text="Turn off cutter"/>
+        <text name="Turn_on_mower" text="Turn on mower"/>
+        <text name="Turn_off_mower" text="Turn off mower"/>
+        <text name="Pipe_in" text="Pipe in"/>
+        <text name="Dump_corn" text="Dump corn"/>
+        <text name="Dump_corn_to_continue_threshing" text="Empty grain tank to continue threshing"/>
+        <text name="Move_the_pipe_over_a_trailer" text="Move the pipe over a trailer"/>
+        <text name="Session" text="Session"/>
+        <text name="Total" text="Total"/>
+        <text name="Seed" text="Seed"/>
+        <text name="Seeds" text="Seeds"/>
+        <text name="Threshing" text="Threshing"/>
+        <text name="Wheat_storage" text="Wheat storage"/>
+        <text name="Barley_storage" text="Barley storage"/>
+        <text name="Rapeseed_storage" text="Canola storage"/>
+        <text name="Maize_storage" text="Corn storage"/>
+        <text name="Corn_sold" text="Corn sold"/>
+        <text name="Fuel" text="Used Fuel"/>
+        <text name="Distance" text="Distance"/>
+        <text name="Revenue" text="Revenue"/>
+        <text name="Expenses" text="Expenses"/>
+        <text name="Profit" text="Profit"/>
+        <text name="Duration" text="Time played"/>
+        <text name="Record" text="Record"/>
+        <text name="Bronze" text="Bronze"/>
+        <text name="Silver" text="Silver"/>
+        <text name="Gold" text="Gold"/>
+        <text name="This_savegame_is_currently_unused" text="This savegame is currently unused"/>
+        <text name="Money" text="Money"/>
+        <text name="In_game_time" text="In game time"/>
+        <text name="Save_date" text="Save date"/>
+        <text name="Savegame" text="Savegame"/>
+        <text name="Currency_symbol" text="$"/>
+        <text name="Measuring_unit" text="m"/>
+        <text name="fluid_unit_short" text="ga"/>
+        <text name="fluid_unit_long" text="gallons"/>
+        <text name="speedometer" text="mph"/>        
+        <text name="mission14Goal" text="Tools remaining"/>
+        <text name="missionStationFill" text="Pounds remaining"/>
+        <text name="Resolution" text="Display Resolution"/>
+        <text name="MSAA" text="Multisample Antialiasing"/>
+        <text name="AnisotropicFiltering" text="Anisotropic Filtering"/>
+        <text name="JoystickGamepad" text="Steering Wheel/Gamepad"/>
+        <text name="HardwareProfile" text="Hardware Profile"/>
+        <text name="TimeScale" text="Time Scale"/>
+        <text name="AutomaticHelp" text="Automatic Help"/>
+        <text name="Store" text="Farm Machines Trader"/>
+        <text name="Capital" text="Capital"/>
+        <text name="Reputation" text="Reputation"/>
+        <text name="Bottles" text="Bottles"/>
+        <text name="PDATitle1" text="Map"/>
+        <text name="PDATitle2" text="Weather Forecast"/>
+        <text name="PDATitle3" text="Prices"/>
+        <text name="PDATitle4" text="Statistics"/>
+        <text name="Day1" text="MON"/>
+        <text name="Day2" text="TUE"/> 
+        <text name="Day3" text="WED"/> 
+        <text name="Day4" text="THU"/>
+        <text name="Day5" text="FRI"/> 
+        <text name="Day6" text="SAT"/>
+        <text name="Day7" text="SUN"/> 
+        <text name="TemperatureSymbol" text="°C"/> 
+        <text name="hotspotMissionGoal" text="Points remaining: "/>
+        <text name="beerKegsMissionGoal" text="Kegs remaining: "/>
+        <text name="bottlesMissionGoal1" text="Collected bottles: "/>
+        <text name="bottlesMissionGoal2" text="Returned bottles: "/>
+        <text name="rocksMissionGoal" text="Rocks still in field: "/>
+        <text name="palletsMissionGoal" text="Stacked pallets: "/>
+        <text name="strawElevatorMissionGoal" text="Delivered bales: "/>
+        <text name="balingMissionGoal" text="Pressed bales: "/>
+        <text name="mowingGrassMissionGoal" text="Grass [lb]: "/>
+        <text name="autoStackingMissionGoal" text="Unloaded bales: "/>
+        <text name="stackSize" text="Stack size: "/>
+        <text name="pallets" text="Pallets"/>
+        <text name="bales" text="Bales"/>
+        <text name="ChooseSeed" text="Select seed"/>
+        <text name="StationPort" text="Port"/>
+        <text name="StationBrewery" text="Brewery"/>
+        <text name="StationMill" text="Mill"/>
+        <text name="PricePerTon" text="[$/t]"/>
+        <text name="wheat" text="Wheat"/>
+        <text name="barley" text="Barley"/>
+        <text name="rape" text="Canola"/>
+        <text name="maize" text="Corn"/>
+        <text name="grass" text="Grass"/>
+        <text name="notAcceptedHere" text=" is not accepted here!"/>
+        <text name="fieldMissionGoal" text="Mission %d%% completed"/>
+        <text name="Mower" text="mower"/>
+        <text name="Difficulty" text="Difficulty"/>
+        <text name="Diff1" text="Easy"/>
+        <text name="Diff2" text="Normal"/>
+        <text name="Diff3" text="Hard"/>
+        <text name="ChooseDifficulty" text="Please choose the level of difficulty:"/>
+        <text name="StoreNoSpace" text="No more space! Remove the purchased items first."/>
+        <text name="StorePurchaseReady" text="You can fetch your purchase at the store."/>
+        <text name="HireEmployee" text="Hire worker"/>
+        <text name="DismissEmployee" text="Dismiss worker"/>
+        <text name="YouWantToDeleteThat" text="Do you really want to
+delete this savegame?"/>
+        <text name="DontForgetToSave" text="Do you want to end
+the game without saving?"/>
+        <text name="YouWantToResetVehicles" text="Do you really want to
+reset the vehicles?"/>
+        <text name="MissionWantToEnd" text="Do you really want to
+end this mission?"/>
+        <text name="LoseChangesTitle" text="Really cancel?"/>
+        <text name="LoseChangesText" text="Do you want to dismiss
+your changes?"/>
+        <text name="DialogYes" text="YES"/>
+        <text name="DialogNo" text="NO"/>
+        <text name="shortDate" text="%m/%d/%Y" />
+        <text name="BALELOADER_WORK" text="Operating position"/>
+        <text name="BALELOADER_TRANSPORT" text="Transporting position"/>
+        <text name="BALELOADER_UNLOAD" text="Unload bales"/>
+        <text name="BALELOADER_SINK" text="Lower loading platform"/>
+        <text name="BALELOADER_ABORT" text="Abort unloading"/>
+        <text name="BALELOADER_UP" text="Table is being tilted. Please wait..."/>
+        <text name="BALELOADER_DOWN" text="Table is being lowered. Please wait..."/>
+        <text name="BALELOADER_READY" text="Unload bales here"/>             
+        
+        <!-- Controls config stuff -->
+        <text name="AXIS_FORWARD_1" text="Drive/walk forward"/>
+        <text name="AXIS_FORWARD_2" text="Drive/walk backward"/>
+        <text name="AXIS_SIDE_1" text="Steer/walk left"/>
+        <text name="AXIS_SIDE_2" text="Steer/walk right"/>
+        <text name="AXIS_FORWARD2_1" text="Look up"/>
+        <text name="AXIS_FORWARD2_2" text="Look down"/>
+        <text name="AXIS_SIDE2_1" text="Look left"/>
+        <text name="AXIS_SIDE2_2" text="Look right"/>
+        <text name="AXIS_TURN_UPPER_STRUCTURE_1" text="Turn upper structure left"/>
+        <text name="AXIS_TURN_UPPER_STRUCTURE_2" text="Turn upper structure right"/>
+        <text name="ENTER" text="Enter vehicle"/>
+        <text name="CAMERA_SWITCH" text="Select camera"/>
+        <text name="TOGGLE_LIGHTS" text="Toggle light"/>
+        <text name="LOWER_IMPLEMENT" text="Lower equipment"/>
+        <text name="ATTACH" text="Attach equipment"/>
+        <text name="IMPLEMENT_EXTRA" text="Equipment function 1"/>
+        <text name="IMPLEMENT_EXTRA2" text="Equipment function 2"/>
+        <text name="IMPLEMENT_EXTRA3" text="Equipment function 3"/>
+        <text name="ACTIVATE_THRESHING" text="Toggle cutter"/>
+        <text name="EMPTY_GRAIN" text="Empty thresher"/>
+        <text name="SWITCH_IMPLEMENT" text="Select Equipment"/>
+        <text name="REFUEL" text="Refuel"/>
+        <text name="SPEED_LEVEL1" text="Speed level 1"/>
+        <text name="SPEED_LEVEL2" text="Speed level 2"/>
+        <text name="SPEED_LEVEL3" text="Speed level 3"/>
+        <text name="TOGGLE_AI" text="Toggle helper"/>
+        <text name="TOGGLE_PDA" text="Toggle PDA"/>
+        <text name="TOGGLE_STORE" text="Store"/>
+        <text name="FRONTLOADER_ARM_POS" text="Front loader arm 1 up"/>
+        <text name="FRONTLOADER_ARM_NEG" text="Front loader arm 1 down"/>
+        <text name="FRONTLOADER_TILT_POS" text="Front loader arm 2 up"/>
+        <text name="FRONTLOADER_TILT_NEG" text="Front loader arm 2 down"/>
+        <text name="CAMERA_ZOOM_IN" text="Camera zoom in"/>
+        <text name="CAMERA_ZOOM_OUT" text="Camera zoom out"/>
+        <text name="SWITCH_VEHICLE" text="Switch vehicle"/>
+        <text name="RUN" text="Run"/>
+        <text name="TOGGLE_PDA_ZOOM" text="Zoom PDA map"/>
+        <text name="TOGGLE_HELP_TEXT" text="Toggle help"/>
+        <text name="SKIP_MESSAGE_BOX" text="Skip message boxes"/>
+        
+        <!-- Menu stuff -->
+        <text name="MainMenuCareer" text="CAREER"/>
+        <text name="MainMenuMissions" text="MISSIONS"/>
+        <text name="MainMenuOptions" text="OPTIONS"/>
+        <text name="MainMenuCredits" text="CREDITS"/>
+        <text name="MainMenuQuit" text="QUIT"/>
+        <text name="ButtonBack" text="BACK"/>
+        <text name="ButtonSave" text="SAVE"/>
+        <text name="ButtonCancel" text="CANCEL"/>
+        <text name="ButtonDefaults" text="DEFAULTS"/>
+        <text name="ButtonControls" text="CONTROLS"/>
+        <text name="SelectActionToRemap" text="Select the action and the input device you want to remap."/>
+        <text name="ActionRemapped" text="'%s' was remapped to %s."/>
+        <text name="KeyAlreadyMapped" text="Note: This key is mapped to several actions."/>
+        <text name="MouseAlreadyMapped" text="Note: This mouse button is mapped to several actions."/>
+        <text name="ButtonAlreadyMapped" text="Note: This button is mapped to several actions."/>
+        <text name="CannotMapMouseHere" text="This action cannot be mapped to a mouse button."/>
+        <text name="CannotMapKeyHere" text="This action cannot be mapped to a key."/>
+        <text name="CannotMapGamepadHere" text="This action cannot be mapped to gamepad input."/>
+        <text name="PressKeyToMap" text="Press the key you want to map to '%s'."/>
+        <text name="PressMouseButtonToMap" text="Press the mouse button you want to map to '%s'."/>
+        <text name="PressGamepadButtonToMap" text="Trigger the axis or button for the action '%s'."/>
+        <text name="KeyCannotBeMapped" text="The key you pressed cannot be mapped. Please select another key."/>
+        <text name="PressESCToCancel" text="Press ESC to cancel or Backspace to remove the current key binding."/>
+        <text name="action" text="Action"/>
+        <text name="key1" text="Key 1"/>
+        <text name="key2" text="Key 2"/>
+        <text name="mouse" text="Mouse"/>
+        <text name="gamepad" text="Gamepad"/>   
+    </texts>
+</i10n>

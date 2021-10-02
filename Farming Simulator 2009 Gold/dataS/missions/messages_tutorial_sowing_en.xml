@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    
+    <message id="1">
+        <title>Seeds Are Not Free of Charge</title>
+        <content>
+<![CDATA[While you are sowing, the price of the seeds is
+automatically subtracted from your capital.]]>
+        </content>
+        <duration>5000</duration>
+    </message>
+    
+    <message id="2">
+        <title>What Do You Want to Sow?</title>
+        <content>
+<![CDATA[In the career mode you can select the seed types as
+you like. The following are available: wheat, barley, canola,
+corn and grass.
+
+In this tutorial, you are limited to barley.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+</messages>

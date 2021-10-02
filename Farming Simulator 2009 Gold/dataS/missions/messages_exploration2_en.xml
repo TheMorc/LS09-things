@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    
+    <message id="1">
+        <title>Port</title>
+        <content>
+<![CDATA[The port accepts all types of grain. However, its prices
+are a bit lower than those of the brewery or the mill.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+
+    <message id="2">
+        <title>Stone Circle</title>
+        <content>
+<![CDATA[This stone circle is the oldest man-made structure on
+the island.
+
+There is not much known about its builders, and its
+original purpose is subject to a lot of speculation.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Camera Views</title>
+        <content>
+<![CDATA[By pressing C you can switch between an inside and
+an outside camera. The distance of the outside camera
+to the vehicle can be adjusted with the mouse wheel.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Mill</title>
+        <content>
+<![CDATA[In the career mode you can unload wheat, barley or
+canola here.
+
+Your PDA's price screen informs you about who is
+currently paying the most for which grain type.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Farm Machines Trader</title>
+        <content>
+<![CDATA[In the career mode you can invest you hard-earned
+money in better farm machinery.
+
+Depending on your reputation, you get a larger sum
+of money from the trader when selling something.]]>
+        </content>
+        <duration>12000</duration>
+    </message>
+    
+    <message id="9">
+        <title>CAUTION!</title>
+        <content>
+<![CDATA[Drive carefully!]]>
+        </content>
+        <duration>5000</duration>
+    </message>
+    
+</messages>

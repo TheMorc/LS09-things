@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+     
+     <message id="1">
+        <title>Side Job: Fertilizer Delivery</title>
+        <content>
+<![CDATA[If you own a front loader with pallet fork, you can
+transport these pallets with fertilizer to the marked
+spot behind the supermarket.
+
+For each delivered pallet you receive a small payment,
+and your reputation grows.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Side Job: Return Bottles</title>
+        <content>
+<![CDATA[There are 100 bottles scattered across the island.
+If you return these to a bottle bank, you receive a small
+amount of money, and your reputation increases.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Farm Machines Trader</title>
+        <content>
+<![CDATA[Here you can buy and sell farm machines and
+implements. Enter the spot in front of the entrance to
+see the available product range.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Welcome to Your Farm!</title>
+        <content>
+<![CDATA[An unexpected inheritance has made you the proud owner
+of a farm along with a few vehicles and tools.
+
+Do you have what it takes to be a successful farmer?]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Humble Beginnings</title>
+        <content>
+<![CDATA[When you start out your farm largely consists of old and
+rickety vehicles. Once you've earned enough money you
+should visit the trader and buy better machines.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="100">
+        <title>CONGRATULATIONS!</title>
+        <content>
+<![CDATA[You've reached the maximum reputation of 100%!
+
+The farm machines trader now pays you 85% of the
+buying price when you sell something.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="101">
+        <title>Maximum Reached!</title>
+        <content>
+<![CDATA[Your reputation is already at the maximum.]]>
+        </content>
+        <duration>4000</duration>
+    </message>
+
+</messages>

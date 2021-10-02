@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<missions>
+    
+    <mission id="18">
+        <name>Joker 6 CT</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[One of the Gold Edition's new tools is the Joker 6 CT compact disc harrow.
+Here you can test its higher work speed by cultivating your field.]]>
+        </description>
+        <image active="dataS/missions/mission_joker6cta.png"/>
+        <script filename="dataS/missions/mission_joker6ct.lua" class="MissionJoker6CT"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_joker6ct_briefing_en.png</briefing>
+        <bronze>360</bronze>
+        <silver>180</silver>
+        <gold>140</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+    <mission id="19">
+        <name>Sprinter 8 ST</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[In this mission you get to use the Sprinter 8 ST tine drill.
+Sow the entire field with the seed of your choice.]]>
+        </description>
+        <image active="dataS/missions/mission_sprinter8sta.png"/>
+        <script filename="dataS/missions/mission_sprinter8st.lua" class="MissionSprinter8ST"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_sprinter8st_briefing_en.png</briefing>
+        <bronze>300</bronze>
+        <silver>180</silver>
+        <gold>120</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="20">
+        <name>Self Propelled Sprayer</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[One of your larger fields needs to be sprayed.
+Your new self-propelled sprayer should make this task a breeze.]]>
+        </description>
+        <image active="dataS/missions/mission_selfPropelledSprayera.png"/>
+        <script filename="dataS/missions/mission_selfPropelledSprayer.lua" class="MissionSelfPropelledSprayer"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_selfPropelledSprayer_briefing_en.png</briefing>
+        <bronze>480</bronze>
+        <silver>300</silver>
+        <gold>200</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="21">
+        <name>Bale Transport</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[The automatic bale loader makes transporting and stacking bales a lot easier.
+In this mission you will need to load 20 straw bales and transport them to your farm.]]>
+        </description>
+        <image active="dataS/missions/mission_autoStackinga.png"/>
+        <script filename="dataS/missions/mission_autoStacking.lua" class="MissionAutoStacking"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_autoStacking_briefing_en.png</briefing>
+        <bronze>660</bronze>
+        <silver>360</silver>
+        <gold>210</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="1">
+        <name>Obstacle Course (Part 1)</name>
+        <time>10</time>
+        <description>
+<![CDATA[This mission tests your skills as a tractor driver: Make your way through the
+obstacle course as quickly as possible. Follow the dashed line, and take care
+not to skip any of the checkpoints marked with traffic cones.]]>
+        </description>
+        <image active="dataS/missions/mission_race1a.png"/>
+        <script filename="dataS/missions/mission_race1.lua" class="MissionRace1"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_race1_briefing_en.png</briefing>
+        <bronze>240</bronze>
+        <silver>120</silver>
+        <gold>80</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="2">
+        <name>Sightseeing (Northern Part of the Island)</name>
+        <time>10</time>
+        <description>
+<![CDATA[Twelve points of interest have been marked on your PDA map and you have to
+visit all of them. In which order you will do this is left up to you. The spot that is
+currently closest to your position is flashing on the map.]]>
+        </description>
+        <image active="dataS/missions/mission_exploration1a.png"/>
+        <script filename="dataS/missions/mission_exploration1.lua" class="MissionExploration1"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_exploration1_briefing_en.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="3">
+        <name>Obstacle Course (Part 2)</name>
+        <time>14</time>
+        <description>
+<![CDATA[This time, you have to pass a slightly more difficult obstacle course with
+a trailer attached to your tractor.]]>
+        </description>
+        <image active="dataS/missions/mission_race2a.png"/>
+        <script filename="dataS/missions/mission_race2.lua" class="MissionRace2"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_race2_briefing_en.png</briefing>
+        <bronze>300</bronze>
+        <silver>140</silver>
+        <gold>80</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+    <mission id="4">
+        <name>Sightseeing (Southern Part of the Island)</name>
+        <time>16.75</time>
+        <description>
+<![CDATA[You are invited to explore the southern part of the island. Drive to all points
+designated on your PDA map within the given time.]]>
+        </description>
+        <image active="dataS/missions/mission_exploration2a.png"/>
+        <script filename="dataS/missions/mission_exploration2.lua" class="MissionExploration2"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_exploration2_briefing_en.png</briefing>
+        <bronze>660</bronze>
+        <silver>480</silver>
+        <gold>300</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="5">
+        <name>Tutorial 1: Plowing</name>
+        <time>10</time>
+        <description>
+<![CDATA[This series of tutorials guides you through the necessary steps to cultivate
+your fields. In the first part you have to plow the soil in preparation for
+sowing the seed.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_ploughinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_ploughing.lua" class="MissionTutorialPloughing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_ploughing_briefing_en.png</briefing>
+        <bronze>720</bronze>
+        <silver>420</silver>
+        <gold>300</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="6">
+        <name>Tutorial 2: Sowing</name>
+        <time>10</time>
+        <description>
+<![CDATA[Now you are ready for the next step: Attach the sowing machine to your tractor
+and drive over the field in an efficient manner.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_sowinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_sowing.lua" class="MissionTutorialSowing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_sowing_briefing_en.png</briefing>
+        <bronze>720</bronze>
+        <silver>510</silver>
+        <gold>210</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="7">
+        <name>Rocks in the Mist</name>
+        <time>6.5</time>
+        <description>
+<![CDATA[Several large rocks interfere with your work. Push all of them out of the field.
+The dense fog prevents you from seeing very far, but you can check the
+position of the rocks on your PDA map.]]>
+        </description>
+        <image active="dataS/missions/mission_rocksa.png"/>
+        <script filename="dataS/missions/mission_rocks.lua" class="MissionRocks"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_rocks_briefing_en.png</briefing>
+        <bronze>480</bronze>
+        <silver>240</silver>
+        <gold>120</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="8">
+        <name>Tutorial 3: Spraying</name>
+        <time>10</time>
+        <description>
+<![CDATA[Your previously sown barley has grown quite a bit already.
+To ensure a fruitful harvest, you need to fertilize the field with the sprayer.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_sprayinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_spraying.lua" class="MissionTutorialSpraying"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_spraying_briefing_en.png</briefing>
+        <bronze>360</bronze>
+        <silver>180</silver>
+        <gold>90</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="9">
+        <name>Dispersal of Bottles</name>
+        <time>17.9</time>
+        <description>
+<![CDATA[You have noticed that there are a lot of returnable bottles strewn across the
+entire island. Your good deed for today is to collect a few of those bottles and
+dump them on one of the bottle banks.]]>
+        </description>
+        <image active="dataS/missions/mission_bottlesa.png"/>
+        <script filename="dataS/missions/mission_bottles.lua" class="MissionBottles"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_bottles_briefing_en.png</briefing>
+        <bronze>900</bronze>
+        <silver>360</silver>
+        <gold>180</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="10">
+        <name>Tutorial 4: Threshing</name>
+        <time>10</time>
+        <description>
+<![CDATA[The day has come for you to harvest the fruits of your work: Drive over the
+field with your combine and unload the harvested crop into the nearby tipper.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_threshinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_threshing.lua" class="MissionTutorialThreshing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_threshing_briefing_en.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>180</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="11">
+        <name>Tutorial 5: Cultivating</name>
+        <time>10</time>
+        <description>
+<![CDATA[In the last part of this tutorial the freshly threshed field needs being worked
+with the cultivator. As usual, do not drive too fast; otherwise the implement might
+detach itself from the tractor.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_cultivatinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_cultivating.lua" class="MissionTutorialCultivating"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_cultivating_briefing_en.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>210</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="12">
+        <name>Stacking High</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[You bet with a neighbor that you can stack at least three pallets of fertilizer
+in less than four minutes. Now he wants to see you do just that.]]>
+        </description>
+        <image active="dataS/missions/mission_stackinga.png"/>
+        <script filename="dataS/missions/mission_stacking.lua" class="MissionStacking"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_stacking_briefing_en.png</briefing>
+        <bronze>3</bronze>
+        <silver>5</silver>
+        <gold>6</gold>
+        <mission_type>stacking</mission_type>
+    </mission>
+    
+    <mission id="13">
+        <name>Moonshine Harvest</name>
+        <time>17.9</time>
+        <description>
+<![CDATA[The local weather forecast has unexpectedly announced hail for the night. Get into
+your combine and harvest your entire field before the weather turns nasty.]]>
+        </description>
+        <image active="dataS/missions/mission_nightThreshinga.png"/>
+        <script filename="dataS/missions/mission_nightThreshing.lua" class="MissionNightThreshing"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_nightThreshing_briefing_en.png</briefing>
+        <bronze>720</bronze>
+        <silver>600</silver>
+        <gold>420</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="14">
+        <name>Hangover</name>
+        <time>12.5</time>
+        <description>
+<![CDATA[A group of tourists pulled a prank last night and left several piles of empty
+kegs at the beach parking lot. Clear the area so that there are no more barrels
+on the asphalt.]]>
+        </description>
+        <image active="dataS/missions/mission_beerKegsa.png"/>
+        <script filename="dataS/missions/mission_beerKegs.lua" class="MissionBeerKegs"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_beerKegs_briefing_en.png</briefing>
+        <bronze>540</bronze>
+        <silver>420</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="15">
+        <name>Quad Baler</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[You have allowed the straw of your threshed field to dry for a few days.
+It is now time to press it into bales. Follow the windrow lines with your baler
+and press twenty straw bales.]]>
+        </description>
+        <image active="dataS/missions/mission_balinga.png"/>
+        <script filename="dataS/missions/mission_baling.lua" class="MissionBaling"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_baling_briefing_en.png</briefing>
+        <bronze>480</bronze>
+        <silver>390</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="16">
+        <name>Race against Rain</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[You are about to haul the last straw bales into the barn, and once again the
+weather turns against you. Transport at least four bales into the barn
+before the straw gets too wet.]]>
+        </description>
+        <image active="dataS/missions/mission_strawElevatora.png"/>
+        <script filename="dataS/missions/mission_strawElevator.lua" class="MissionStrawElevator"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_strawElevator_briefing_en.png</briefing>
+        <bronze>4</bronze>
+        <silver>5</silver>
+        <gold>7</gold>
+        <mission_type>strawElevatoring</mission_type>
+    </mission>
+    
+    <mission id="17">
+        <name>Mowing Grass</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[The meadow next to your farm needs mowing. This is an excellent
+opportunity to use the disc mower and the self-loading forage wagon.]]>
+        </description>
+        <image active="dataS/missions/mission_grassMowinga.png"/>
+        <script filename="dataS/missions/mission_grassMowing.lua" class="MissionGrassMowing"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_grassMowing_briefing_en.png</briefing>
+        <bronze>720</bronze>
+        <silver>360</silver>
+        <gold>270</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+</missions>
