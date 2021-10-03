@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    <message id="1">
+        <title>Browar</title>
+        <content>
+<![CDATA[To jest lokalny browar. 
+W trybie kariery możesz tu dostarczać pszenicę i jęczmień.
+Ilość pieniędzy za dostarczone ziarno zależy między 
+innymi od dnia tygodnia.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+
+    <message id="2">
+        <title>Centrum wioski</title>
+        <content>
+<![CDATA[Wielu mieszkańców uciekło tutaj przed uciążliwościami 
+życia w mieście. 
+
+Na razie nie potrafią jeszcze rozstać się ze swoimi 
+samochodami i lubią z nich korzystać.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Payzan Flora</title>
+        <content>
+<![CDATA[Rodzina Payzan prowadzi to centrum ogrodnicze od dwóch 
+pokoleń. 
+
+W trybie kariery czasami pojawia się możliwość 
+przetransportowania palet z nawozem do tego 
+supermarketu.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Pola</title>
+        <content>
+<![CDATA[Głównym źródłem utrzymania na wyspie jest 
+rolnictwo. Możesz uprawiać pola i inwestować zarobione 
+pieniądze w lepsze maszyny rolnicze.]]>
+        </content>
+        <duration>9000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Traktory nie potrafią pływać!</title>
+        <content>
+<![CDATA[Uważaj, by nie wjechać traktorem na głęboką wodę. 
+W ten sposób możesz stracić pojazd. 
+
+W trybie kariery możesz odstawić na farmę zatopione lub 
+unieruchomione pojazdy, klikając w menu opcję
+"Odstaw pojazdy".]]>
+        </content>
+        <duration>12000</duration>
+    </message>
+    
+    <message id="6">
+        <title>Witaj na wyspie!</title>
+        <content>
+<![CDATA[Podczas tej misji poznasz kilka charakterystycznych 
+punktów wyspy. Dostępne będą podpowiedzi dotyczące gry. 
+
+Czy już wiesz, jak korzystać z mapy PDA (I)?
+
+Aby zamknąć wiadomość tekstową, naciśnij lewy
+przycisk myszy.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="7">
+        <title>Supermarket</title>
+        <content>
+<![CDATA[To jest największy sklep na wyspie. 
+Większość towarów importuje się z lądu stałego.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+    
+    <message id="9">
+        <title>Park do jazdy na wrotkach</title>
+        <content>
+<![CDATA[Ten park jest przeznaczony głównie dla osób jeżdżących 
+na wrotkach, ale możesz spróbować wykonać na swoim
+traktorze jakąś zwariowaną ewolucję.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+</messages>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    
+    <message id="1">
+        <title>Port</title>
+        <content>
+<![CDATA[W porcie przyjmowane są wszystkie rodzaje ziaren. 
+Ceny są nieco niższe niż w browarze lub młynie.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+
+    <message id="2">
+        <title>Kamienny krąg</title>
+        <content>
+<![CDATA[Kamienny krąg to najstarszy na wyspie obiekt wykonany 
+ręką człowieka. 
+
+Niewiele wiadomo o jego budowniczych. Także jego 
+przeznaczenie jest tematem wielu spekulacji.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Widok z kamery</title>
+        <content>
+<![CDATA[Naciskając klawisz C, możesz przełączać się pomiędzy
+widokiem z kamery zewnętrznej i wewnętrznej. Odległość 
+kamery zewnętrznej od pojazdu można zmieniać za 
+pomocą rolki myszy.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Młyn</title>
+        <content>
+<![CDATA[W trybie kariery możesz tu dostarczać jęczmień, 
+pszenicę oraz rzepak. 
+
+Za pomocą PDA możesz sprawdzić, kto w danej chwili 
+płaci najwięcej za określony rodzaj ziarna.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Sprzedawca maszyn rolniczych</title>
+        <content>
+<![CDATA[W trybie kariery możesz inwestować zarobione 
+pieniądze w lepsze maszyny rolnicze. 
+
+Im wyższy poziom reputacji, tym więcej pieniędzy 
+otrzymujesz, sprzedając urządzenia.]]>
+        </content>
+        <duration>12000</duration>
+    </message>
+    
+    <message id="9">
+        <title>UWAGA!</title>
+        <content>
+<![CDATA[Jedź ostrożnie!]]>
+        </content>
+        <duration>5000</duration>
+    </message>
+    
+</messages>

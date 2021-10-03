@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+     
+     <message id="1">
+        <title>Praca dodatkowa: dostarczanie nawozów</title>
+        <content>
+<![CDATA[Jeśli posiadasz ładowacz czołowy oraz widły do palet, 
+przenoś palety z nawozem w wyznaczone miejsce na 
+tyłach supermarketu. 
+
+Za każdą przeniesioną paletę otrzymujesz drobne 
+wynagrodzenie. Ponadto rośnie twoja reputacja.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Praca dodatkowa: zwrot butelek</title>
+        <content>
+<![CDATA[Na wyspie znajduje się 100 butelek. Za każdą 
+przyniesioną do punktu zwrotu butelkę otrzymujesz
+drobną zapłatę. Ponadto rośnie twoja reputacja.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Sprzedawca maszyn rolniczych</title>
+        <content>
+<![CDATA[Tutaj możesz kupować i sprzedawać maszyny 
+rolnicze oraz narzędzia. Podejdź w pobliże wejścia, 
+aby zobaczyć ofertę.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Witaj na farmie!</title>
+        <content>
+<![CDATA[Nieoczekiwany spadek sprawił, że stałeś się dumnym 
+posiadaczem farmy oraz kilku pojazdów i narzędzi. 
+
+Czy uda ci się odnieść sukces?]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Skromny początek</title>
+        <content>
+<![CDATA[Na początku będziesz korzystać ze starych i zużytych 
+urządzeń. Kiedy zarobisz odpowiednią ilość pieniędzy, 
+odwiedź sprzedawcę i kup lepsze maszyny.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="100">
+        <title>GRATULACJE!</title>
+        <content>
+<![CDATA[Udało ci się osiągnąć maksymalny poziom 
+reputacji - 100%! 
+
+Sprzedawca maszyn rolniczych będzie ci płacił 85% 
+ceny wyjściowej, gdy będziesz coś sprzedawać.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="101">
+        <title>Osiągnięto maksimum!</title>
+        <content>
+<![CDATA[Już posiadasz maksymalny poziom reputacji.]]>
+        </content>
+        <duration>4000</duration>
+    </message>
+
+</messages>

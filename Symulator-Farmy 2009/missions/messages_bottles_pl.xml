@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+     <message id="1">
+        <title>Punkt zwrotu butelek</title>
+        <content>
+<![CDATA[Tutaj możesz zwrócić znalezione butelki. Na wyspie 
+znajduje się kilka takich pojemników. 
+
+Wszystkie są zaznaczone na mapie PDA.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Na piechotę</title>
+        <content>
+<![CDATA[Butelki możesz zbierać, poruszając się pieszo. 
+
+Oczywiście większe odległości możesz pokonywać w 
+pojeździe.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Dbaj o czystość na wyspie!</title>
+        <content>
+<![CDATA[W trybie kariery możesz zbierać butelki i oddawać je w 
+punkcie zwrotu. 
+
+Za każdą zwróconą butelkę otrzymujesz drobne wynagrodzenie. 
+Ponadto rośnie twoja reputacja.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Zadanie z butelkami</title>
+        <content>
+<![CDATA[W trybie kariery możesz znaleźć 100 butelek. 
+
+Tylko w tej misji wszystkie butelki są widoczne na 
+mapie PDA.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Reputacja</title>
+        <content>
+<![CDATA[Poziom reputacji wpływa na cenę starych maszyn lub 
+narzędzi sprzedawanych u sprzedawcy maszyn rolniczych.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="6">
+        <title>Drobna podpowiedź</title>
+        <content>
+<![CDATA[Do niektórych butelek nie można się dostać bezpośrednio.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+    
+    
+</messages>

@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<missions>
+    <mission id="1">
+        <name>Tor przeszkód (część 1)</name>
+        <time>10</time>
+        <description>
+<![CDATA[Podczas tej misji zostaną sprawdzone twoje umiejętności kierowania traktorem:
+musisz jak najszybciej pokonać tor przeszkód. Jedź wzdłuż linii przerywanej i
+postaraj się nie ominąć żadnego z punktów kontrolnych, które oznaczono słupkami.]]>
+        </description>
+        <image active="dataS/missions/mission_race1a.png"/>
+        <script filename="dataS/missions/mission_race1.lua" class="MissionRace1"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_race1_briefing_pl.png</briefing>
+        <bronze>240</bronze>
+        <silver>120</silver>
+        <gold>80</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="2">
+        <name>Zwiedzanie (północna część wyspy)</name>
+        <time>10</time>
+        <description>
+<![CDATA[Na mapie PDA zaznaczono dwanaście punktów. Musisz je wszystkie odwiedzić. 
+Możesz to zrobić w dowolnej kolejności. Błyskający punkt na mapie znajduje się
+najbliżej twojej aktualnej pozycji.]]>
+        </description>
+        <image active="dataS/missions/mission_exploration1a.png"/>
+        <script filename="dataS/missions/mission_exploration1.lua" class="MissionExploration1"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_exploration1_briefing_pl.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="3">
+        <name>Tor przeszkód (część 2)</name>
+        <time>14</time>
+        <description>
+<![CDATA[Tym razem musisz pokonać nieco trudniejszy tor przeszkód. Dodatkowo do 
+traktora jest doczepiona przyczepa.]]>
+        </description>
+        <image active="dataS/missions/mission_race2a.png"/>
+        <script filename="dataS/missions/mission_race2.lua" class="MissionRace2"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_race2_briefing_pl.png</briefing>
+        <bronze>300</bronze>
+        <silver>140</silver>
+        <gold>80</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+    <mission id="4">
+        <name>Zwiedzanie (południowa część wyspy)</name>
+        <time>16.75</time>
+        <description>
+<![CDATA[Zapraszamy do zapoznania się z południową częścią wyspy. Pojedź do wszystkich 
+punktów zaznaczonych na mapie PDA. Musisz to zrobić w wyznaczonym czasie.]]>
+        </description>
+        <image active="dataS/missions/mission_exploration2a.png"/>
+        <script filename="dataS/missions/mission_exploration2.lua" class="MissionExploration2"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_exploration2_briefing_pl.png</briefing>
+        <bronze>660</bronze>
+        <silver>480</silver>
+        <gold>300</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="5">
+        <name>Samouczek 1: oranie</name>
+        <time>10</time>
+        <description>
+<![CDATA[Niniejsza seria samouczków pozwoli ci poznać tajniki uprawy ziemi. W pierwszej
+części musisz zaorać ziemię, przygotowując się do siewu ziarna.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_ploughinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_ploughing.lua" class="MissionTutorialPloughing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_ploughing_briefing_pl.png</briefing>
+        <bronze>780</bronze>
+        <silver>450</silver>
+        <gold>360</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="6">
+        <name>Samouczek 2: sianie</name>
+        <time>10</time>
+        <description>
+<![CDATA[Możemy przystąpić do kolejnego kroku: dołącz siewnik do traktora i w optymalny
+sposób objedź pole, rozrzucając ziarno.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_sowinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_sowing.lua" class="MissionTutorialSowing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_sowing_briefing_pl.png</briefing>
+        <bronze>720</bronze>
+        <silver>510</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="7">
+        <name>Kamienie we mgle</name>
+        <time>6.5</time>
+        <description>
+<![CDATA[Kilka dużych kamieni przeszkadza ci w pracy. Wypchnij je poza pole. Gęsta mgła 
+ogranicza widoczność. Skorzystaj z mapy PDA, aby sprawdzić położenie kamieni.]]>
+        </description>
+        <image active="dataS/missions/mission_rocksa.png"/>
+        <script filename="dataS/missions/mission_rocks.lua" class="MissionRocks"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_rocks_briefing_pl.png</briefing>
+        <bronze>480</bronze>
+        <silver>240</silver>
+        <gold>120</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="8">
+        <name>Samouczek 3: nawożenie</name>
+        <time>10</time>
+        <description>
+<![CDATA[Jęczmień zdążył się już rozrosnąć. Musisz nawieźć pole, 
+korzystając z rozsiewacza nawozów.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_sprayinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_spraying.lua" class="MissionTutorialSpraying"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_spraying_briefing_pl.png</briefing>
+        <bronze>360</bronze>
+        <silver>180</silver>
+        <gold>90</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="9">
+        <name>Zwrot butelek</name>
+        <time>17.9</time>
+        <description>
+<![CDATA[Na wyspie rozrzucono wiele pustych butelek. Zrób dobry uczynek i pozbieraj 
+część z nich, a następnie dostarcz je do punktu zwrotu.]]>
+        </description>
+        <image active="dataS/missions/mission_bottlesa.png"/>
+        <script filename="dataS/missions/mission_bottles.lua" class="MissionBottles"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_bottles_briefing_pl.png</briefing>
+        <bronze>900</bronze>
+        <silver>360</silver>
+        <gold>180</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="10">
+        <name>Samouczek 4: młócenie</name>
+        <time>10</time>
+        <description>
+<![CDATA[Nadszedł dzień zbiorów: pojedź na pole kombajnem, a następnie przerzuć 
+zebrane ziarno na przyczepę wywrotkę.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_threshinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_threshing.lua" class="MissionTutorialThreshing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_threshing_briefing_pl.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>180</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="11">
+        <name>Samouczek 5: kultywacja</name>
+        <time>10</time>
+        <description>
+<![CDATA[W ostatniej części samouczka należy spulchnić ziemię za pomocą kultywatora. 
+Nie możesz jechać zbyt szybko, ponieważ urządzenie może się odczepić od traktora.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_cultivatinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_cultivating.lua" class="MissionTutorialCultivating"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_cultivating_briefing_pl.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>210</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="12">
+        <name>Wysoki stos</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Założyłeś się z sąsiadem, że w czasie krótszym niż cztery minuty ułożysz 
+przynajmniej trzy palety nawozu. Pokaż mu, że potrafisz to zrobić.]]>
+        </description>
+        <image active="dataS/missions/mission_stackinga.png"/>
+        <script filename="dataS/missions/mission_stacking.lua" class="MissionStacking"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_stacking_briefing_pl.png</briefing>
+        <bronze>3</bronze>
+        <silver>5</silver>
+        <gold>6</gold>
+        <mission_type>stacking</mission_type>
+    </mission>
+    
+    <mission id="13">
+        <name>Zbiory przy świetle księżyca</name>
+        <time>17.9</time>
+        <description>
+<![CDATA[Lokalna prognoza pogody pokazuje, że w nocy mogą wystąpić opady gradu. Pojedź 
+kombajnem na pole i zbierz zboże, zanim pogoda się pogorszy.]]>
+        </description>
+        <image active="dataS/missions/mission_nightThreshinga.png"/>
+        <script filename="dataS/missions/mission_nightThreshing.lua" class="MissionNightThreshing"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_nightThreshing_briefing_pl.png</briefing>
+        <bronze>720</bronze>
+        <silver>600</silver>
+        <gold>480</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="14">
+        <name>Pozostałość</name>
+        <time>12.5</time>
+        <description>
+<![CDATA[Zeszłej nocy grupa turystów urządziła sobie zabawę, pozostawiając na parkingu
+przy plaży nieczystości. Posprzątaj to miejsce.]]>
+        </description>
+        <image active="dataS/missions/mission_beerKegsa.png"/>
+        <script filename="dataS/missions/mission_beerKegs.lua" class="MissionBeerKegs"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_beerKegs_briefing_pl.png</briefing>
+        <bronze>540</bronze>
+        <silver>420</silver>
+        <gold>300</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="15">
+        <name>Prasa</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Słoma pozostawiona na polu przez kilka dni zdążyła przeschnąć. Nadszedł
+czas, aby ją zebrać i związać w bele. Korzystając z prasy, ubij dwadzieścia 
+bel słomy.]]>
+        </description>
+        <image active="dataS/missions/mission_balinga.png"/>
+        <script filename="dataS/missions/mission_baling.lua" class="MissionBaling"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_baling_briefing_pl.png</briefing>
+        <bronze>480</bronze>
+        <silver>390</silver>
+        <gold>280</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="16">
+        <name>Wyścig z deszczem</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Masz zamiar zwieźć ostatnie bele słomy do stodoły. Niestety, pogoda znowu nie
+dopisała. Przetransportuj przynajmniej cztery bele, zanim słoma stanie się zbyt
+wilgotna.]]>
+        </description>
+        <image active="dataS/missions/mission_strawElevatora.png"/>
+        <script filename="dataS/missions/mission_strawElevator.lua" class="MissionStrawElevator"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_strawElevator_briefing_pl.png</briefing>
+        <bronze>4</bronze>
+        <silver>5</silver>
+        <gold>7</gold>
+        <mission_type>strawElevatoring</mission_type>
+    </mission>
+    
+    <mission id="17">
+        <name>Koszenie trawy</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Łąka znajdująca się obok twojej farmy wymaga skoszenia. To znakomita
+ okazja, by użyć kosiarki talerzowej oraz przyczepy zbierającej.]]>
+        </description>
+        <image active="dataS/missions/mission_grassMowinga.png"/>
+        <script filename="dataS/missions/mission_grassMowing.lua" class="MissionGrassMowing"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_grassMowing_briefing_pl.png</briefing>
+        <bronze>720</bronze>
+        <silver>360</silver>
+        <gold>270</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+</missions>

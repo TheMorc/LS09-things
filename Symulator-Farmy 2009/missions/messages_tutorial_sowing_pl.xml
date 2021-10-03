@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<messages>
+    
+    <message id="1">
+        <title>Ziarno nie jest za darmo</title>
+        <content>
+<![CDATA[Podczas siewu cena ziarna jest automatycznie 
+odejmowana od posiadanego przez ciebie kapitału.]]>
+        </content>
+        <duration>5000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Co chcesz zasiać?</title>
+        <content>
+<![CDATA[W trybie kariery możesz wybrać dowolny typ ziarna. 
+Możesz uprawiać jęczmień, kukurydzę, pszenicę, 
+rzepak lub trawę. 
+
+W samouczku możliwe jest wybranie wyłącznie jęczmienia.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+</messages>
