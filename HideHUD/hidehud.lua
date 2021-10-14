@@ -1,16 +1,9 @@
 -- HideHUD Mod - hidehud.lua
 -- possibly the only file needed for it all
 -- @author  Richard Gráčik (mailto:r.gracik@gmail.com)
--- @date  13.10.2021
-
-print("[HideHUD Mod] saving original draw and keyEvent functions")
+-- @date  13.10.2021 - 14.10.2021
 
 HideHUDenabled=false
-
-original = { 
-	 draw = draw,
-	 keyEvent = keyEvent
-}
 
 --draw function that does exactly nothing
 function HideHUDdraw()
@@ -29,14 +22,20 @@ function HideHUDkeyEvent(unicode, sym, modifier, isDown)
 	
 end
 
-print("[HideHUD Mod] overriding the keyEvent function")
-_G.keyEvent = HideHUDkeyEvent
-
 modClassEventListener = {};
 
 
 function modClassEventListener:loadMap(name)
-
+	
+	print("[HideHUD Mod] saving original draw and keyEvent functions")
+	original = { 
+		 draw = draw,
+		 keyEvent = keyEvent
+	}
+	
+	print("[HideHUD Mod] overriding the keyEvent function")
+	_G.keyEvent = HideHUDkeyEvent
+	
 end;
 
 function modClassEventListener:deleteMap()
@@ -48,6 +47,7 @@ function modClassEventListener:mouseEvent(posX, posY, isDown, isUp, button)
 end;
 
 function modClassEventListener:keyEvent(unicode, sym, modifier, isDown)
+	
 	if isDown and sym == 291 then
 		HideHUDenabled = not HideHUDenabled
 		
@@ -59,6 +59,7 @@ function modClassEventListener:keyEvent(unicode, sym, modifier, isDown)
 			print("[HideHUD Mod] disabling HideHUD - F10 key")
 		end
 	end
+	
 end;
 
 function modClassEventListener:update(dt)
