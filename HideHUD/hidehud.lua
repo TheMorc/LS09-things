@@ -1,7 +1,7 @@
 -- HideHUD Mod - hidehud.lua
 -- possibly the only file needed for it all
 -- @author  Richard Gráčik (mailto:r.gracik@gmail.com)
--- @date  13.10.2021 - 14.10.2021
+-- @date  13.10.2021 - 23.10.2021
 
 HideHUDenabled=false
 
@@ -16,10 +16,14 @@ function HideHUDkeyEvent(unicode, sym, modifier, isDown)
 	
 	if gameMenuSystem.currentMenu ~= nil and HideHUDenabled then
 		_G.draw = original.draw
+		_G.renderText = original.renderText
 		print("[HideHUD Mod] disabling HideHUD - in game menu open")
 		HideHUDenabled = false
 	end
 	
+end
+
+function HideHUDrenderText(x,y,size,str)
 end
 
 modClassEventListener = {};
@@ -30,7 +34,8 @@ function modClassEventListener:loadMap(name)
 	print("[HideHUD Mod] saving original draw and keyEvent functions")
 	original = { 
 		 draw = draw,
-		 keyEvent = keyEvent
+		 keyEvent = keyEvent,
+		 renderText = renderText
 	}
 	
 	print("[HideHUD Mod] overriding the keyEvent function")
@@ -53,9 +58,11 @@ function modClassEventListener:keyEvent(unicode, sym, modifier, isDown)
 		
 		if HideHUDenabled then
 			_G.draw = HideHUDdraw
+			_G.renderText = HideHUDrenderText
 			print("[HideHUD Mod] enabling HideHUD - F10 key")
 		else
 			_G.draw = original.draw
+			_G.renderText = original.renderText
 			print("[HideHUD Mod] disabling HideHUD - F10 key")
 		end
 	end
