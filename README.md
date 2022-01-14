@@ -9,5 +9,6 @@ It includes:
 * original + unpacked dataS and decompiled scripts from Traktor Zetor Simulátor
 * original + unpacked dataS and decompiled scripts from Farming Simulator 2009 Gold
 * original + unpacked dataS and decompiled scripts from Symulator-Farmy 2009
+* original + unpacked dataS and decompiled scripts from Landwirtschafts Simulator 2009
 
 Scripts are mostly the same for every version of the game, it's only the GUI assets and translation that is different between versions
