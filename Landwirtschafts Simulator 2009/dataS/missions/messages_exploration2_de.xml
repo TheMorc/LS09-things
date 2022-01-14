@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<messages>
+    
+    <message id="1">
+        <title>Hafen</title>
+        <content>
+<![CDATA[Im Hafen können Sie sämtliche Fruchtsorten abliefern.
+Allerdings sind die Preise hier eher etwas tiefer, als bei
+der Brauerei oder der Mühle.
+]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+
+    <message id="2">
+        <title>Steinkreis</title>
+        <content>
+<![CDATA[Dieser Steinkreis ist das älteste menschengeschaffene
+Bauwerk auf der Insel.
+Über dessen Erbauer ist bis heute nur wenig bekannt, und
+der ursprüngliche Zweck der Struktur ist ebenfalls
+Gegenstand vieler Spekulationen.
+]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Kamera-Ansichten</title>
+        <content>
+<![CDATA[Mit der Taste C können Sie übrigens zwischen einer
+Innen- und einer Aussenkamera wechseln. Die Distanz
+der Aussen-Kamera zum Fahrzeug ist mit dem Mausrad
+regulierbar.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Mühle</title>
+        <content>
+<![CDATA[Im Karriere-Modus können Sie bei der Mühle Weizen,
+Gerste und Raps abliefern.
+
+Die Preisübersicht Ihres PDAs gibt immer Auskunft
+darüber, wer zur Zeit den höchsten Betrag für eine
+bestimmte Fruchtsorte bietet.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Landmaschinen-Händler</title>
+        <content>
+<![CDATA[Im Karriere-Modus können Sie hier Ihr hart verdientes
+Geld in bessere Landmaschinen investieren.
+
+Je nachdem, wie nützlich Sie sich bereits auf der Insel
+gemacht haben, desto mehr Geld erhalten Sie vom Händler
+zurück, wenn Sie etwas verkaufen.]]>
+        </content>
+        <duration>12000</duration>
+    </message>
+    
+    <message id="9">
+        <title>ACHTUNG!</title>
+        <content>
+<![CDATA[Fahren Sie vorsichtig!]]>
+        </content>
+        <duration>5000</duration>
+    </message>
+    
+</messages>

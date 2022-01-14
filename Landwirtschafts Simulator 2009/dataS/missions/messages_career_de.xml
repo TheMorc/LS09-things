@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<messages>
+     
+     <message id="1">
+        <title>Nebenjob: Düngerlieferung</title>
+        <content>
+<![CDATA[Sind Sie im Besitz eines Frontladers mit Palettengabel,
+können Sie diese Paletten Dünger zur markierten Stelle
+hinter dem Supermarkt bringen.
+
+Pro gelieferter Palette erhalten Sie einen kleinen
+Geldbetrag, und Ihr Ansehen auf der Insel steigt.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Nebenjob: Flaschen zurückbringen</title>
+        <content>
+<![CDATA[Auf der Insel sind insgesamt 100 solcher Flaschen
+verstreut. Wenn Sie diese zu den Flaschencontainern
+bringen, erhalten Sie einen kleinen Geldbetrag, und
+Ihr Ansehen steigt an.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Landmaschinen- und Gerätehändler</title>
+        <content>
+<![CDATA[Hier können Sie Landmaschinen und Geräte kaufen
+und verkaufen. Betreten Sie die markierte Stelle vor
+der Eingangstüre, um den Händler aufzurufen.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Willkommen auf Ihrem Hof!</title>
+        <content>
+<![CDATA[Durch eine unerwartete Erbschaft sind Sie stolzer Besitzer
+eines Bauernhofes geworden.
+
+Haben Sie das Zeug zum erfolgreichen Landwirten?]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Bescheidene Anfänge</title>
+        <content>
+<![CDATA[Zu Beginn besteht Ihr Fuhrpark lediglich aus klapprigen
+Oldtimern. Sobald Sie über genügend Geld verfügen,
+sollten Sie beim Landmaschinenhändler bessere Vehikel
+und Geräte kaufen.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="100">
+        <title>GRATULATION!</title>
+        <content>
+<![CDATA[Sie haben das maximale Ansehen von 100% erreicht!
+
+Der Fahrzeug- und Gerätehändler erstattet Ihnen von
+nun an 85% des Kaufpreises zurück, wenn Sie
+etwas verkaufen.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="101">
+        <title>Maximum erreicht!</title>
+        <content>
+<![CDATA[Ihr Ansehen ist bereits auf dem Höchststand.]]>
+        </content>
+        <duration>4000</duration>
+    </message>
+
+</messages>

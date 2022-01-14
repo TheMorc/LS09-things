@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<i10n>
+    <currency factor="1" />
+    <speed factor="1" />
+    <texts>
+        <text name="mission02Goal" text="Strohballen"/>
+        <text name="mission11Goal" text="Baumstämme"/>
+        <text name="Key" text="Taste"/>
+        <text name="or" text="oder"/>
+        <text name="Button" text="Button"/>
+        <text name="Turn_on_lights" text="Licht anschalten"/>
+        <text name="Dump" text="Auskippen"/>
+        <text name="Attach" text="Ankuppeln"/>
+        <text name="lift_OBJECT" text="%s heben"/>
+        <text name="lower_OBJECT" text="%s senken"/>
+        <text name="Enter" text="Einsteigen"/>
+        <text name="turn_off_OBJECT" text="%s abschalten"/>
+        <text name="turn_on_OBJECT" text="%s anschalten"/>
+        <text name="turn_off" text="abschalten"/>
+        <text name="turn_on" text="anschalten"/>
+        <text name="fold_OBJECT" text="%s zuklappen"/>
+        <text name="unfold_OBJECT" text="%s aufklappen"/>
+        <text name="Refuel" text="Tanken"/>
+        <text name="Time" text="Zeit"/>
+        <text name="minutes" text="Minuten"/>
+        <text name="Change_tools" text="Geräteauswahl wechseln"/>
+        <text name="Dont_drive_to_depth_into_the_water" text="Fahren Sie nicht zu tief ins Wasser"/>
+        <text name="Mission_is_loading_please_wait" text="Mission wird geladen, bitte warten ..."/>
+        <text name="Game_is_loading_please_wait" text="Spiel wird geladen, bitte warten ..."/>
+        <text name="Dont_drive_to_fast" text="Fahren Sie nicht zu schnell"/>
+        <text name="Cruise_control_levelN" text="Tempomat Stufe %s: Taste %s"/>      
+        <text name="Dont_do_threshing_during_rain_or_hail" text="Dreschen Sie nicht bei Regen oder Hagel"/>
+        <text name="Turn_plough" text="Pflug drehen"/>
+        <text name="Turn_on_cutter" text="Schneidwerk anschalten"/>
+        <text name="Turn_off_cutter" text="Schneidwerk abschalten"/>
+        <text name="Turn_on_mower" text="Mähwerk anschalten"/>
+        <text name="Turn_off_mower" text="Mähwerk abschalten"/>
+        <text name="Pipe_in" text="Rohr einfahren"/>
+        <text name="Dump_corn" text="Korntank entleeren"/>
+        <text name="Dump_corn_to_continue_threshing" text="Leeren Sie den Korntank, um weiter zu dreschen"/>
+        <text name="Move_the_pipe_over_a_trailer" text="Bewegen Sie das Rohr über einen Anhänger"/>
+        <text name="Session" text="Spiel"/>
+        <text name="Total" text="Gesamt"/>
+        <text name="Seed" text="Säen"/>
+        <text name="Seeds" text="Saatgut"/>
+        <text name="Threshing" text="Dreschen"/>
+        <text name="Wheat_storage" text="Weizenlager"/>
+        <text name="Barley_storage" text="Gerstenlager"/>
+        <text name="Rapeseed_storage" text="Rapslager"/>
+        <text name="Maize_storage" text="Maislager"/>
+        <text name="Corn_sold" text="Kornverkauf"/>
+        <text name="Fuel" text="Verbrauchter Diesel"/>
+        <text name="Distance" text="Fahrdistanz"/>
+        <text name="Revenue" text="Umsatz"/>
+        <text name="Expenses" text="Ausgaben"/>
+        <text name="Profit" text="Gewinn"/>
+        <text name="Duration" text="Spieldauer"/>
+        <text name="Record" text="Bestzeit"/>        
+        <text name="Bronze" text="Bronze"/>
+        <text name="Silver" text="Silber"/>
+        <text name="Gold" text="Gold"/>
+        <text name="This_savegame_is_currently_unused" text="Dieser Spielstand ist zur Zeit unbenutzt"/>
+        <text name="Money" text="Geld"/>
+        <text name="In_game_time" text="Uhrzeit im Spiel"/>
+        <text name="Save_date" text="Speicherdatum"/>
+        <text name="Savegame" text="Spielstand"/>
+        <text name="Currency_symbol" text="€"/>
+        <text name="Measuring_unit" text="km"/>       
+        <text name="fluid_unit_short" text="l"/>
+        <text name="fluid_unit_long" text="liter"/>
+        <text name="speedometer" text="km/h"/>
+        <text name="mission14Goal" text="Geräte ausstehend"/>
+        <text name="missionStationFill" text="Kilogramm ausstehend"/>
+        <text name="Resolution" text="Bildschirmauflösung"/>
+        <text name="MSAA" text="Kantenglättung"/>
+        <text name="AnisotropicFiltering" text="Anisotropische Filterung"/>
+        <text name="JoystickGamepad" text="Lenkrad oder Gamepad"/>
+        <text name="HardwareProfile" text="Hardwareprofil"/>
+        <text name="TimeScale" text="Zeitskalierung"/>
+        <text name="AutomaticHelp" text="Automatische Hilfe"/>
+        <text name="Store" text="Fahrzeug- und Gerätehändler"/>
+        <text name="Capital" text="Kapital"/>
+        <text name="Reputation" text="Ansehen"/>
+        <text name="Bottles" text="Abgegebene Flaschen"/>
+        <text name="PDATitle1" text="Karte"/>
+        <text name="PDATitle2" text="Wettervorhersage"/>
+        <text name="PDATitle3" text="Preise"/>
+        <text name="PDATitle4" text="Statistiken"/>
+        <text name="Day1" text="MO"/>
+        <text name="Day2" text="DI"/> 
+        <text name="Day3" text="MI"/> 
+        <text name="Day4" text="DO"/>
+        <text name="Day5" text="FR"/> 
+        <text name="Day6" text="SA"/>
+        <text name="Day7" text="SO"/>
+        <text name="TemperatureSymbol" text="&amp;"/> 
+        <text name="hotspotMissionGoal" text="Verbleibende Punkte: "/>
+        <text name="beerKegsMissionGoal" text="Verbleibende Fässer: "/>
+        <text name="bottlesMissionGoal1" text="Eingesammelte Flaschen: "/>
+        <text name="bottlesMissionGoal2" text="Abgelieferte Flaschen: "/>
+        <text name="rocksMissionGoal" text="Steine im Feld: "/>
+        <text name="palletsMissionGoal" text="Aufgestapelte Paletten: "/>
+        <text name="strawElevatorMissionGoal" text="Beförderte Ballen: "/>
+        <text name="balingMissionGoal" text="Gepresste Ballen: "/>
+        <text name="mowingGrassMissionGoal" text="Abzuladendes Gras [kg]: "/>
+        <text name="stackSize" text="Stapelhöhe: "/>
+        <text name="pallets" text="Paletten"/>
+        <text name="bales" text="Ballen"/>
+        <text name="ChooseSeed" text="Saat wählen"/>
+        <text name="StationPort" text="Hafen"/>
+        <text name="StationBrewery" text="Brauerei"/>
+        <text name="StationMill" text="Mühle"/>
+        <text name="PricePerTon" text="[€/t]"/>
+        <text name="wheat" text="Weizen"/>
+        <text name="barley" text="Gerste"/>
+        <text name="rape" text="Raps"/>
+        <text name="maize" text="Mais"/>
+        <text name="grass" text="Gras"/>
+        <text name="notAcceptedHere" text=" wird hier nicht angenommen!"/>
+        <text name="fieldMissionGoal" text="Missionsziel: %d%% erreicht"/>   
+        <text name="Mower" text="Mähwerk"/>
+        <text name="Difficulty" text="Schwierigkeitsgrad"/>
+        <text name="Diff1" text="Leicht"/>
+        <text name="Diff2" text="Normal"/>
+        <text name="Diff3" text="Schwer"/>
+        <text name="ChooseDifficulty" text="Bitte wählen Sie den Schwierigkeitsgrad:"/>
+        <text name="StoreNoSpace" text="Kein Platz mehr! Räumen Sie zuerst die gekauften Geräte weg."/>
+        <text name="StorePurchaseReady" text="Ihr Kauf steht beim Händler abholbereit."/>
+        <text name="HireEmployee" text="Helfer einstellen"/>
+        <text name="DismissEmployee" text="Helfer entlassen"/>
+    </texts>
+</i10n>

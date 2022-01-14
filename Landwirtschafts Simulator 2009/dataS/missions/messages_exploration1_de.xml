@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<messages>
+    <message id="1">
+        <title>Brauerei</title>
+        <content>
+<![CDATA[Dies ist die lokale Brauerei.
+Hier können Sie im Karriere-Modus Gerste und Weizen
+abliefern. Wieviel Geld Sie dafür erhalten, hängt
+unter anderem vom Wochentag ab.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+
+    <message id="2">
+        <title>Dorfzentrum</title>
+        <content>
+<![CDATA[Viele Bewohner des Dorfes sind auf die Insel gezogen,
+weil Ihnen das Stadtleben zu hektisch war.
+
+Auf Ihre Autos wollten Sie jedoch trotzdem nicht verzichten,
+und deshalb sind sie des öfteren mit ihren fahrbaren
+Untersätzen unterwegs.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="3">
+        <title>"Payzan Flora"</title>
+        <content>
+<![CDATA[Die Familie Payzan führt diese Gärtnerei schon seit über
+zwei Generationen.
+
+Im Karriere-Modus erhalten Sie manchmal die Gelegenheit,
+Paletten mit Dünger zum Supermarkt zu transportieren.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Felder</title>
+        <content>
+<![CDATA[Die Insel lebt vor allem von der Landwirtschaft.
+Felder wie diese können von Ihnen bewirtschaftet werden.
+Das daraus gewonnene Geld können Sie dann in bessere
+Landmaschinen investieren.]]>
+        </content>
+        <duration>9000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Traktoren können nicht schwimmen!</title>
+        <content>
+<![CDATA[Passen Sie auf, dass Sie nicht zu tief ins Wasser fahren,
+ansonsten geht Ihr Fahrzeug baden.
+
+Im Karriere-Modus können Sie versunkene oder stecken-
+gebliebene Fahrzeuge wieder auf Ihren Hof zurücksetzen,
+indem Sie im Menü auf "Fahrzeuge zurücksetzen" klicken.]]>
+        </content>
+        <duration>12000</duration>
+    </message>
+    
+    <message id="6">
+        <title>Willkommen auf der Insel!</title>
+        <content>
+<![CDATA[Diese Mission führt Sie zu einigen Sehenswürdigkeiten
+der Insel und verrät Ihnen Tipps zum Spiel.
+
+Haben Sie schon die PDA-Karte (Taste I) aktiviert?
+
+Textnachrichten können Sie übrigens mit der linken
+Maustaste wieder ausblenden.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="7">
+        <title>Supermarkt</title>
+        <content>
+<![CDATA[Praktisch die ganze Insel geht hier einkaufen! Ein grosser
+Teil der Waren wird vom Festland per Schiff geliefert.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+    
+    <message id="9">
+        <title>Skatepark</title>
+        <content>
+<![CDATA[Auch wenn diese Anlage eigentlich nur für Skateboards
+gedacht ist, können Sie sich hier auch mit einem
+Traktor austoben.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+</messages>

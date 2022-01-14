@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<messages>
+     <message id="1">
+        <title>Flaschencontainer</title>
+        <content>
+<![CDATA[Sobald Sie einige Flaschen gefunden haben, können
+Sie diese hier abgeben.
+
+Auf der Insel gibt es mehrere solcher Sammelstellen.
+Sie sind alle auf Ihrer PDA-Karte eingezeichnet.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Per Pedes</title>
+        <content>
+<![CDATA[Flaschen können Sie nur aufnehmen, wenn Sie zu Fuss sind.
+
+Um grössere Distanzen zurückzulegen, können Sie natürlich
+ein Fahrzeug verwenden.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="3">
+        <title>Haltet die Insel sauber!</title>
+        <content>
+<![CDATA[Im Karriere-Modus können Sie ebenfalls Flaschen mitnehmen
+und an den Sammelstellen abgeben.
+
+Für jede zurückgebrachte Flasche erhalten Sie ein kleines
+Entgelt, und Ihr Ansehen auf der Insel steigt.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+    <message id="4">
+        <title>Flaschensuche</title>
+        <content>
+<![CDATA[Im Karriere-Modus sind insgesamt 100 Flaschen zu finden.
+
+Ausschliesslich in dieser Mission sind die Flaschen
+ebenfalls auf Ihrer PDA-Karte sichtbar.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="5">
+        <title>Ansehen</title>
+        <content>
+<![CDATA[Die Höhe Ihres Ansehens beeinflusst, wieviel Geld Sie beim
+Landmaschinen-Händler zurückerhalten, wenn Sie
+ein altes Fahrzeug verkaufen.]]>
+        </content>
+        <duration>8000</duration>
+    </message>
+    
+    <message id="6">
+        <title>Ein kleiner Tipp</title>
+        <content>
+<![CDATA[Manche Flaschen können Sie nur indirekt erreichen.]]>
+        </content>
+        <duration>6000</duration>
+    </message>
+    
+    
+</messages>

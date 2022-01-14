@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<missions>
+    <mission id="1">
+        <name>Hindernisstrecke (Teil 1)</name>
+        <time>10</time>
+        <description>
+<![CDATA[Hier wird Ihr Können als Traktorfahrer getestet: Durchfahren Sie die Hindernis-
+strecke so schnell als möglich. Folgen Sie dabei der gestrichelten Linie und achten
+Sie darauf, keines der mit Leitkegeln gekennzeichneten Tore auszulassen.]]>
+        </description>
+        <image active="dataS/missions/mission_race1a.png"/>
+        <script filename="dataS/missions/mission_race1.lua" class="MissionRace1"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_race1_briefing_de.png</briefing>
+        <bronze>240</bronze>
+        <silver>120</silver>
+        <gold>80</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="2">
+        <name>Erkundungsfahrt (Nordteil der Insel)</name>
+        <time>10</time>
+        <description>
+<![CDATA[Auf der Karte Ihres PDAs wurden zwölf Punkte gekennzeichnet, die Sie schnellst-
+möglichst abfahren müssen. Die Reihenfolge können Sie dabei beliebig wählen.
+Als Hilfe blinkt jeweils derjenige Punkt, welcher Ihnen momentan am nächsten ist.]]>
+        </description>
+        <image active="dataS/missions/mission_exploration1a.png"/>
+        <script filename="dataS/missions/mission_exploration1.lua" class="MissionExploration1"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_exploration1_briefing_de.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="3">
+        <name>Hindernisstrecke (Teil 2)</name>
+        <time>14</time>
+        <description>
+<![CDATA[Ein weiterer Hinderniskurs will absolviert werden. Hier kommt erschwerend
+hinzu, dass Sie die Strecke mit einem Anhänger durchfahren müssen.]]>
+        </description>
+        <image active="dataS/missions/mission_race2a.png"/>
+        <script filename="dataS/missions/mission_race2.lua" class="MissionRace2"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_race2_briefing_de.png</briefing>
+        <bronze>300</bronze>
+        <silver>140</silver>
+        <gold>80</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+    <mission id="4">
+        <name>Erkundungsfahrt (Südteil der Insel)</name>
+        <time>16.75</time>
+        <description>
+<![CDATA[Die südliche Hälfte der Insel wartet diesmal darauf, erkundet zu werden.
+Fahren Sie die Punkte auf Ihrer PDA-Karte in möglichst kurzer Zeit ab.]]>
+        </description>
+        <image active="dataS/missions/mission_exploration2a.png"/>
+        <script filename="dataS/missions/mission_exploration2.lua" class="MissionExploration2"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_exploration2_briefing_de.png</briefing>
+        <bronze>660</bronze>
+        <silver>480</silver>
+        <gold>300</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="5">
+        <name>Tutorial 1: Pflügen</name>
+        <time>10</time>
+        <description>
+<![CDATA[In dieser Reihe von Tutorials lernen Sie die nötigen Arbeitschritte, um Felder
+erfolgreich zu bewirtschaften. Im ersten Teil muss die Erde mit dem Pflug
+aufgelockert und damit auf die nächste Saat vorbereitet werden.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_ploughinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_ploughing.lua" class="MissionTutorialPloughing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_ploughing_briefing_de.png</briefing>
+        <bronze>780</bronze>
+        <silver>450</silver>
+        <gold>360</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="6">
+        <name>Tutorial 2: Säen</name>
+        <time>10</time>
+        <description>
+<![CDATA[Nach dem Pflügen ist das Feld jetzt bereit für die Aussaat. Koppeln Sie dazu die
+Sämaschine an Ihren Traktor und befahren Sie die gesamte Feldfläche auf
+möglichst effiziente Weise.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_sowinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_sowing.lua" class="MissionTutorialSowing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_sowing_briefing_de.png</briefing>
+        <bronze>720</bronze>
+        <silver>510</silver>
+        <gold>240</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="7">
+        <name>Steine im Nebel</name>
+        <time>6.5</time>
+        <description>
+<![CDATA[Einige grosse Steinbrocken stören Sie bei der Feldarbeit. Befördern Sie diese
+aus dem Feld. Da die Sicht wetterbedingt äusserst schlecht ist, sind die jeweiligen
+Positionen der Steine auf Ihrer PDA-Karte markiert.]]>
+        </description>
+        <image active="dataS/missions/mission_rocksa.png"/>
+        <script filename="dataS/missions/mission_rocks.lua" class="MissionRocks"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_rocks_briefing_de.png</briefing>
+        <bronze>480</bronze>
+        <silver>240</silver>
+        <gold>120</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="8">
+        <name>Tutorial 3: Düngen</name>
+        <time>10</time>
+        <description>
+<![CDATA[Die von Ihnen gesäte Gerste ist mittlerweile schon etwas gewachsen. Um eine
+optimale Ernte sicherzustellen, sollten Sie das Feld nun mit der Spritze düngen.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_sprayinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_spraying.lua" class="MissionTutorialSpraying"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_spraying_briefing_de.png</briefing>
+        <bronze>360</bronze>
+        <silver>180</silver>
+        <gold>90</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="9">
+        <name>Flaschen-Intermezzo</name>
+        <time>17.9</time>
+        <description>
+<![CDATA[Ihnen ist aufgefallen, dass überall verstreut auf der Insel leere Pfandflaschen
+herumliegen. Sie nehmen sich vor, heute als gute Tat einige Flaschen
+aufzusammeln und zu einem Flaschencontainer zu bringen.]]>
+        </description>
+        <image active="dataS/missions/mission_bottlesa.png"/>
+        <script filename="dataS/missions/mission_bottles.lua" class="MissionBottles"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_bottles_briefing_de.png</briefing>
+        <bronze>900</bronze>
+        <silver>360</silver>
+        <gold>180</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="10">
+        <name>Tutorial 4: Dreschen</name>
+        <time>10</time>
+        <description>
+<![CDATA[Der Tag ist gekommen, die Früchte Ihrer Arbeit zu ernten. Fahren Sie mit dem
+Mähdrescher übers Feld und entladen Sie das geerntete Getreide in den
+bereitstehenden Anhänger.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_threshinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_threshing.lua" class="MissionTutorialThreshing"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_threshing_briefing_de.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>180</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="11">
+        <name>Tutorial 5: Grubbern</name>
+        <time>10</time>
+        <description>
+<![CDATA[Im letzten Teil dieses Tutorials muss das Erdreich des frisch abgedroschenen
+Feldes mit dem Grubber bearbeitet werden. Fahren Sie wie gewohnt nicht
+zu schnell, damit sich das Gerät unterwegs nicht abkoppelt.]]>
+        </description>
+        <image active="dataS/missions/mission_tutorial_cultivatinga.png"/>
+        <script filename="dataS/missions/mission_tutorial_cultivating.lua" class="MissionTutorialCultivating"/>
+        <lockable>false</lockable>
+        <briefing>dataS/missions/mission_tutorial_cultivating_briefing_de.png</briefing>
+        <bronze>600</bronze>
+        <silver>360</silver>
+        <gold>210</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="12">
+        <name>Hochstapler</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Gegenüber einem Nachbarn stellten Sie die Behauptung auf, dass Sie innerhalb
+von 4 Minuten mindestens drei Paletten mit Dünger aufeinanderstapeln können.
+Der hat Sie beim Wort genommen und will nun Taten sehen.]]>
+        </description>
+        <image active="dataS/missions/mission_stackinga.png"/>
+        <script filename="dataS/missions/mission_stacking.lua" class="MissionStacking"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_stacking_briefing_de.png</briefing>
+        <bronze>3</bronze>
+        <silver>5</silver>
+        <gold>6</gold>
+        <mission_type>stacking</mission_type>
+    </mission>
+    
+    <mission id="13">
+        <name>Mondschein-Ernte</name>
+        <time>17.9</time>
+        <description>
+<![CDATA[Der Wetterbericht hat für diese Nacht kurzfristig Hagel vorausgesagt.
+Schwingen Sie sich hinter das Steuer Ihres Mähdreschers und ernten Sie Ihr Feld,
+bevor das Wetter ungemütlich wird.]]>
+        </description>
+        <image active="dataS/missions/mission_nightThreshinga.png"/>
+        <script filename="dataS/missions/mission_nightThreshing.lua" class="MissionNightThreshing"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_nightThreshing_briefing_de.png</briefing>
+        <bronze>720</bronze>
+        <silver>600</silver>
+        <gold>480</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="14">
+        <name>Katerstimmung</name>
+        <time>12.5</time>
+        <description>
+<![CDATA[Beim Strandparkplatz hat sich letzte Nacht eine Gruppe von Touristen einen
+Scherz erlaubt und einen Berg leerer Fässer hinterlassen. Räumen Sie den
+Parkplatz leer, so dass sich keine Fässer mehr auf dem Asphalt befinden.]]>
+        </description>
+        <image active="dataS/missions/mission_beerKegsa.png"/>
+        <script filename="dataS/missions/mission_beerKegs.lua" class="MissionBeerKegs"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_beerKegs_briefing_de.png</briefing>
+        <bronze>540</bronze>
+        <silver>420</silver>
+        <gold>300</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="15">
+        <name>Ballenpresse</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Nachdem das Stroh des vor einigen Tagen gemähten Feldes genügend trocknen
+konnte, ist es jetzt an der Zeit, es zu Ballen zu pressen. Fahren Sie mit der
+Ballenpresse den Schwaden nach, und pressen Sie zwanzig Strohballen.]]>
+        </description>
+        <image active="dataS/missions/mission_balinga.png"/>
+        <script filename="dataS/missions/mission_baling.lua" class="MissionBaling"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_baling_briefing_de.png</briefing>
+        <bronze>480</bronze>
+        <silver>390</silver>
+        <gold>280</gold>
+        <mission_type>time</mission_type>
+    </mission>
+    
+    <mission id="16">
+        <name>Wettlauf gegen den Regen</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Sie sind gerade dabei, die letzten Strohballen in die Scheune zu befördern
+und wieder einmal stellt sich das Wetter gegen Sie. Bringen Sie mindestens
+vier Ballen unters Scheunendach, bevor das Stroh völlig durchnässt ist.]]>
+        </description>
+        <image active="dataS/missions/mission_strawElevatora.png"/>
+        <script filename="dataS/missions/mission_strawElevator.lua" class="MissionStrawElevator"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_strawElevator_briefing_de.png</briefing>
+        <bronze>4</bronze>
+        <silver>5</silver>
+        <gold>7</gold>
+        <mission_type>strawElevatoring</mission_type>
+    </mission>
+    
+    <mission id="17">
+        <name>Gras mähen</name>
+        <time>13.4</time>
+        <description>
+<![CDATA[Es ist mal wieder an der Zeit, die Wiese neben Ihrem Hof zu mähen.
+Sie benutzen dazu den Scheibenmäher und den Grasladewagen.]]>
+        </description>
+        <image active="dataS/missions/mission_grassMowinga.png"/>
+        <script filename="dataS/missions/mission_grassMowing.lua" class="MissionGrassMowing"/>
+        <lockable>true</lockable>
+        <briefing>dataS/missions/mission_grassMowing_briefing_de.png</briefing>
+        <bronze>720</bronze>
+        <silver>360</silver>
+        <gold>270</gold>
+        <mission_type>time</mission_type>
+    </mission>
+
+</missions>

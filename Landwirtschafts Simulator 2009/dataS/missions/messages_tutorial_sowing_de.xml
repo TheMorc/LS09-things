@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<messages>
+    
+    <message id="1">
+        <title>Saatgut ist nicht kostenlos</title>
+        <content>
+<![CDATA[Beim Säen wird Ihnen automatisch der Preis für die
+ausgestreute Saat abgezogen.]]>
+        </content>
+        <duration>5000</duration>
+    </message>
+    
+    <message id="2">
+        <title>Was möchten Sie anpflanzen?</title>
+        <content>
+<![CDATA[Im Karriere-Modus können Sie die zu säende Fruchtsorte
+beliebig wählen. Zur Verfügung stehen Weizen, Gerste,
+Raps, Mais und Gras.
+
+In diesem Tutorial beschränken wir uns auf Gerste.]]>
+        </content>
+        <duration>10000</duration>
+    </message>
+    
+</messages>
