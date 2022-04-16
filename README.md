@@ -4,6 +4,7 @@ This is a Landwirtschafts Simulator 2009 / Farming Simulator 2009 / Traktor Zeto
 
 It includes:
 * decompilation script for unluac and unpack script for quickbms
+* python script for uploading mods to archive.org
 * python server source code for LS2009Chat
 * lua source code for LS2009Chat
 * original + unpacked dataS and decompiled scripts from Traktor Zetor Simulátor
