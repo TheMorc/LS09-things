@@ -15,5 +15,5 @@ It includes:
 
 *and more!*
 
-## About game scripts:
+## About game scripts
 Scripts are nearly 100% the same for every version of the game, it's only the GUI assets and translation that is different between versions.
