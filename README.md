@@ -7,9 +7,12 @@ It includes:
 * python script for uploading mods to archive.org
 * python server source code for LS2009Chat
 * lua source code for LS2009Chat
+* lua source code for HideHUD
 * original + unpacked dataS and decompiled scripts from Traktor Zetor Simulátor
 * original + unpacked dataS and decompiled scripts from Farming Simulator 2009 Gold
 * original + unpacked dataS and decompiled scripts from Symulator-Farmy 2009
 * original + unpacked dataS and decompiled scripts from Landwirtschafts Simulator 2009
+*and more!*
 
-Scripts are mostly the same for every version of the game, it's only the GUI assets and translation that is different between versions
+## About game scripts:
+Scripts are nearly 100% the same for every version of the game, it's only the GUI assets and translation that is different between versions.
