@@ -8,6 +8,7 @@ It includes:
 * python server source code for LS2009Chat
 * lua source code for LS2009Chat
 * lua source code for HideHUD
+* lua source code for menuMusicChanger
 * original + unpacked dataS and decompiled scripts from Traktor Zetor Simulátor
 * original + unpacked dataS and decompiled scripts from Farming Simulator 2009 Gold
 * original + unpacked dataS and decompiled scripts from Symulator-Farmy 2009
