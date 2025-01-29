@@ -82,7 +82,7 @@ document.getElementById("fileInput").addEventListener("change", (event) => {
 				var heightPatchBase = [0xC7, 0x46, 0x04];
 				
 				var widthPatchRes = [(widthInput.value >> 24) & 0xFF,(widthInput.value >> 16) & 0xFF, (widthInput.value >> 8) & 0xFF, widthInput.value & 0xFF];
-				var heightPatchRes = [(widthInput.value >> 24) & 0xFF,(widthInput.value >> 16) & 0xFF, (widthInput.value >> 8) & 0xFF, widthInput.value & 0xFF];
+				var heightPatchRes = [(heightInput.value >> 24) & 0xFF,(heightInput.value >> 16) & 0xFF, (heightInput.value >> 8) & 0xFF, heightInput.value & 0xFF];
 				
 				var widthPatch = widthPatchBase.concat(widthPatchRes);
 				var heightPatch = heightPatchBase.concat(heightPatchRes);
