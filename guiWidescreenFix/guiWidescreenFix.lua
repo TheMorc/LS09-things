@@ -52,29 +52,3 @@ function guiWF_checkOverlayOverlap(posX, posY, overlay)
 end
 _G.checkOverlayOverlap = guiWF_checkOverlayOverlap
 print("[guiWidescreenFix] Patched Overlay.checkOverlayOverlap")
-
-modClassEventListener = {};
-
-function modClassEventListener:loadMap(name)
-	-- deprecated pda patch, not required anymore
-	--g_currentMission.missionStats.pdaMapArrowXPos = g_currentMission.missionStats.pdaMapWidth / 2 - g_currentMission.missionStats.pdaMapArrowSize + guiWF_guiOffset
-	--g_currentMission.missionStats.pdaMapPosX = guiWF_guiOffset
-	--print("[guiWidescreenFix] Patched PDA")
-end;
-
-function modClassEventListener:deleteMap()
-end;
-
-function modClassEventListener:mouseEvent(posX, posY, isDown, isUp, button)
-end;
-
-function modClassEventListener:keyEvent(unicode, sym, modifier, isDown)
-end;
-
-function modClassEventListener:update(dt)
-end;
-
-function modClassEventListener:draw()
-end;
-
-addModEventListener(modClassEventListener);
