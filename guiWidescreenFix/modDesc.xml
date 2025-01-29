@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no" ?>
+<modDesc descVersion="1">
+    <author>Morc, GIANTS</author>
+    <version>0.1</version>
+
+	<extraSourceFiles>
+        <sourceFile filename="guiWidescreenFix.lua" />
+    </extraSourceFiles>
+</modDesc>
