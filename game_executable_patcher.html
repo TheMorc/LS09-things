@@ -1,6 +1,6 @@
-<h1>Landwirtschafts Simulator / Farming Simulator game executable patcher</h1>
+<h1>GIANTS Engine game executable patcher</h1>
 <hr>
-<h2>Farming Simulator 2008/2009/2011/2013 FontRenderer Scaling Patch:</h1>
+<h2>Farming Simulator 2008/2009/2011/2013, Demolition Company & Ski Region Simulator 2012 FontRenderer Scaling Patch:</h1>
 <table><thead>
 <tr>
 	<td align='right'><b>Executable:</b></td>
@@ -16,7 +16,7 @@
 </tr>
 <tr>
 	<td></td>
-	<td><button id="patch" disabled>Patch (FarmingSimulator)(2008|2009|2011|2013)game(.exe)</button></td>
+	<td><button id="patch" disabled>Patch (FarmingSimulator)(2008|2009|2011|2013)game.exe</button></td>
 </tr>
 </thead></table>
 <br>
@@ -73,14 +73,35 @@ document.getElementById("fileInput").addEventListener("change", (event) => {
 		
 		patchButton.disabled = false;
 		patchButton.onclick = () => {
-			var widthOffset = findBytes(gameExecutable, [0xC7, 0x06, 0x80, 0x02, 0x00, 0x00]);
-			var heightOffset = findBytes(gameExecutable, [0xC7, 0x46, 0x04, 0xE0, 0x01, 0x00, 0x00]);
-			if (widthOffset == -1 && heightOffset == -1) {
-				alert(`Failed to find offsets, is your executable already patched?`);
-			}else {
+			var widthOffset0811 = findBytes(gameExecutable, [0xC7, 0x06, 0x80, 0x02, 0x00, 0x00]);
+			var heightOffset0811 = findBytes(gameExecutable, [0xC7, 0x46, 0x04, 0xE0, 0x01, 0x00, 0x00]);
+			
+			var widthOffset13 = findBytes(gameExecutable, [0xC7, 0x03, 0x80, 0x02, 0x00, 0x00]);
+			var heightOffset13 = findBytes(gameExecutable, [0xC7, 0x43, 0x04, 0xE0, 0x01, 0x00, 0x00]);
+			
+			var game = "";
+			
+			if (widthOffset0811 != -1 && heightOffset0811 != -1)
+			{
 				var widthPatchBase = [0xC7, 0x06];
 				var heightPatchBase = [0xC7, 0x46, 0x04];
-				
+				var widthOffset = widthOffset0811;
+				var heightOffset = heightOffset0811;
+				game = "LS2008-2011,DC,SRS2012";
+			}
+			else if (widthOffset13 != -1 && heightOffset13 != -1)
+			{
+				var widthPatchBase = [0xC7, 0x03];
+				var heightPatchBase = [0xC7, 0x43, 0x04];
+				var widthOffset = widthOffset13;
+				var heightOffset = heightOffset13;
+				game = "LS2013";
+			}
+		
+			if (game == "")
+				alert(`Failed to find offsets, is your game executable already patched?`);
+			else
+			{
 				var widthPatchRes = [(widthInput.value >> 24) & 0xFF,(widthInput.value >> 16) & 0xFF, (widthInput.value >> 8) & 0xFF, widthInput.value & 0xFF];
 				var heightPatchRes = [(heightInput.value >> 24) & 0xFF,(heightInput.value >> 16) & 0xFF, (heightInput.value >> 8) & 0xFF, heightInput.value & 0xFF];
 				
@@ -96,15 +117,15 @@ document.getElementById("fileInput").addEventListener("change", (event) => {
 				
 				var patchedExecutable = new Blob([gameExecutable], { type: file.type });
 	
-				alert(`New computed width: ${hex(widthPatchRes)}\nNew computed height: ${hex(heightPatchRes)}\nFontRenderer_00: ${widthOffset}\nFontRenderer_04: ${heightOffset}\nSuccess!`);
+				var link = document.createElement("a");
+				link.textContent = "Click here if the patched executable didn't start downloading";
+				link.href = URL.createObjectURL(patchedExecutable);
+				link.download = `patched_${file.name}`;
+				document.getElementById("container").appendChild(link);
+				link.click();
+			
+				alert(`Found game: ${game}\nNew computed width: ${hex(widthPatchRes)}\nNew computed height: ${hex(heightPatchRes)}\nFontRenderer_00: ${widthOffset}\nFontRenderer_04: ${heightOffset}\nSuccess!`);
 			}
-		
-			var link = document.createElement("a");
-			link.textContent = "Click here if the patched executable didn't start downloading";
-			link.href = URL.createObjectURL(patchedExecutable);
-			link.download = `patched_${file.name}`;
-			document.getElementById("container").appendChild(link);
-			link.click();
 			
 		};
 	};
