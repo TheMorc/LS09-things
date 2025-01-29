@@ -1,0 +1,114 @@
+<h1>Landwirtschafts Simulator / Farming Simulator game executable patcher</h1>
+<hr>
+<h2>Farming Simulator 2008/2009/2011/2013 FontRenderer Scaling Patch:</h1>
+<table><thead>
+<tr>
+	<td align='right'><b>Executable:</b></td>
+	<td><input type="file" id="fileInput" /><br></td>
+</tr>
+<tr>
+	<td align='right'><b>Screen width (e.g 1920):</b></td>
+	<td><input type="text" id="width" value="640"></td>
+</tr>
+<tr>
+	<td align='right'><b>Screen height (e.g 1080):</b></td>
+	<td><input type="text" id="height" value="480"></td>
+</tr>
+<tr>
+	<td></td>
+	<td><button id="patch" disabled>Patch (FarmingSimulator)(2008|2009|2011|2013)game(.exe)</button></td>
+</tr>
+</thead></table>
+<br>
+<div id="container"></div>
+
+<hr>
+
+<a href="http://biskupova.televiziastb.sk/">Morc</a> @ <a href="http://370.network">370network</a> & <a href="https://komeo.xyz/ls2009mods">LS 2009 Mods Archive</a>
+
+
+
+<script>
+// GIANTS Engine Patcher
+// first revision of a javascript based patcher
+// Richard Gráčik @ 370network (morc@370.network)
+// LS Mods Community (https://komeo.xyz/ls2009mods)
+// 29.1.2025
+
+function hex(inputArray)
+{
+	var hexString = '';
+	for (var i = 0; i < inputArray.length; i++) {
+	  hexString += inputArray[i].toString(16).toUpperCase();
+	}
+	return hexString;
+}
+
+function findBytes(buffer, sequence) {
+	for (var i = 0; i < buffer.length - sequence.length + 1; i++) {
+		var match = true;
+		for (let j = 0; j < sequence.length; j++) {
+			if (buffer[i + j] !== sequence[j]) {
+				match = false;
+				break;
+			}
+		}
+		if (match)
+			return i;
+	}
+	return -1;
+}
+
+document.getElementById("fileInput").addEventListener("change", (event) => {
+	var file = event.target.files[0];
+	var reader = new FileReader();
+
+	reader.onload = (e) => {
+		var arrayBuffer = e.target.result;
+		var gameExecutable = new Uint8Array(arrayBuffer);
+	
+		var patchButton = document.getElementById("patch");
+		var widthInput = document.getElementById("width");
+		var heightInput = document.getElementById("height");
+		
+		patchButton.disabled = false;
+		patchButton.onclick = () => {
+			var widthOffset = findBytes(gameExecutable, [0xC7, 0x06, 0x80, 0x02, 0x00, 0x00]);
+			var heightOffset = findBytes(gameExecutable, [0xC7, 0x46, 0x04, 0xE0, 0x01, 0x00, 0x00]);
+			if (widthOffset == -1 && heightOffset == -1) {
+				alert(`Failed to find offsets, is your executable already patched?`);
+			}else {
+				var widthPatchBase = [0xC7, 0x06];
+				var heightPatchBase = [0xC7, 0x46, 0x04];
+				
+				var widthPatchRes = [(widthInput.value >> 24) & 0xFF,(widthInput.value >> 16) & 0xFF, (widthInput.value >> 8) & 0xFF, widthInput.value & 0xFF];
+				var heightPatchRes = [(widthInput.value >> 24) & 0xFF,(widthInput.value >> 16) & 0xFF, (widthInput.value >> 8) & 0xFF, widthInput.value & 0xFF];
+				
+				var widthPatch = widthPatchBase.concat(widthPatchRes);
+				var heightPatch = heightPatchBase.concat(heightPatchRes);
+				
+				for (var i = 0; i < widthPatch.length; i++) {
+					gameExecutable[widthOffset + i] = widthPatch[i];
+				}
+				for (var i = 0; i < heightPatch.length; i++) {
+					gameExecutable[heightOffset + i] = heightPatch[i];
+				}
+				
+				var patchedExecutable = new Blob([gameExecutable], { type: file.type });
+	
+				alert(`New computed width: ${hex(widthPatchRes)}\nNew computed height: ${hex(heightPatchRes)}\nFontRenderer_00: ${widthOffset}\nFontRenderer_04: ${heightOffset}\nSuccess!`);
+			}
+		
+			var link = document.createElement("a");
+			link.textContent = "Click here if the patched executable didn't start downloading";
+			link.href = URL.createObjectURL(patchedExecutable);
+			link.download = `patched_${file.name}`;
+			document.getElementById("container").appendChild(link);
+			link.click();
+			
+		};
+	};
+
+	reader.readAsArrayBuffer(file);
+});
+</script>
