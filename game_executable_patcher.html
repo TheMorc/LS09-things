@@ -161,14 +161,14 @@ document.getElementById("fileInput_CRC").addEventListener("change", (event) => {
 		
 		patchButton.disabled = false;
 		patchButton.onclick = () => {
-			var crcOffset = findBytes(gameExecutable, [0x80, 0x3B, 0x00, 0x75, 0x23, 0x83]);
+			var crcOffset = findBytes(gameExecutable, [0x68, 0xC0, 0x86, 0x5F, 0x00, 0x53]);
 		
 			if (crcOffset == -1)
 				alert(`Failed to find offsets, is your game executable already patched?`);
 			else
 			{
 				
-				for (var i = 0; i < 28; i++) {
+				for (var i = 0; i < 15; i++) {
 					gameExecutable[crcOffset + i] = 0x90;
 				}
 				
