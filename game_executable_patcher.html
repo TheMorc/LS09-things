@@ -168,7 +168,7 @@ document.getElementById("fileInput_CRC").addEventListener("change", (event) => {
 			else
 			{
 				
-				for (var i = 0; i < 15; i++) {
+				for (var i = 0; i < 0x15; i++) {
 					gameExecutable[crcOffset + i] = 0x90;
 				}
 				
