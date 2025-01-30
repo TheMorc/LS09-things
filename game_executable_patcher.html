@@ -4,24 +4,39 @@
 <table><thead>
 <tr>
 	<td align='right'><b>Executable:</b></td>
-	<td><input type="file" id="fileInput" /><br></td>
+	<td><input type="file" id="fileInput_fontRenderer" /><br></td>
 </tr>
 <tr>
 	<td align='right'><b>Screen width (e.g 1920):</b></td>
-	<td><input type="text" id="width" value="640"></td>
+	<td><input type="text" id="width_fontRenderer" value="640"></td>
 </tr>
 <tr>
 	<td align='right'><b>Screen height (e.g 1080):</b></td>
-	<td><input type="text" id="height" value="480"></td>
+	<td><input type="text" id="height_fontRenderer" value="480"></td>
 </tr>
 <tr>
 	<td></td>
-	<td><button id="patch" disabled>Patch (FarmingSimulator)(2008|2009|2011|2013)game.exe</button></td>
+	<td><button id="patch_fontRenderer" disabled>Patch (FarmingSimulator)(2008|2009|2011|2013)game.exe</button></td>
 </tr>
 </thead></table>
 <br>
-<div id="container"></div>
-
+<div id="container_fontRenderer"></div>
+<br>
+<br>
+<hr>
+<h2>Farming Simulator 2011 dataS CRC Patch:</h1>
+<table><thead>
+<tr>
+	<td align='right'><b>Executable:</b></td>
+	<td><input type="file" id="fileInput_CRC" /><br></td>
+</tr>
+<tr>
+	<td></td>
+	<td><button id="patch_CRC" disabled>Patch (FarmingSimulator2011)game.exe</button></td>
+</tr>
+</thead></table>
+<br>
+<div id="container_CRC"></div>
 <hr>
 
 <a href="http://biskupova.televiziastb.sk/">Morc</a> @ <a href="http://370.network">370network</a> & <a href="https://komeo.xyz/ls2009mods">LS 2009 Mods Archive</a>
@@ -34,6 +49,7 @@
 // Richard Gráčik @ 370network (morc@370.network)
 // LS Mods Community (https://komeo.xyz/ls2009mods)
 // 29.1.2025
+// 30.1.2025 - LS2011 dataS.gar CRC check patch
 
 function hex(inputArray)
 {
@@ -59,7 +75,7 @@ function findBytes(buffer, sequence) {
 	return -1;
 }
 
-document.getElementById("fileInput").addEventListener("change", (event) => {
+document.getElementById("fileInput_fontRenderer").addEventListener("change", (event) => {
 	var file = event.target.files[0];
 	var reader = new FileReader();
 
@@ -67,9 +83,9 @@ document.getElementById("fileInput").addEventListener("change", (event) => {
 		var arrayBuffer = e.target.result;
 		var gameExecutable = new Uint8Array(arrayBuffer);
 	
-		var patchButton = document.getElementById("patch");
-		var widthInput = document.getElementById("width");
-		var heightInput = document.getElementById("height");
+		var patchButton = document.getElementById("patch_fontRenderer");
+		var widthInput = document.getElementById("width_fontRenderer");
+		var heightInput = document.getElementById("height_fontRenderer");
 		
 		patchButton.disabled = false;
 		patchButton.onclick = () => {
@@ -121,10 +137,51 @@ document.getElementById("fileInput").addEventListener("change", (event) => {
 				link.textContent = "Click here if the patched executable didn't start downloading";
 				link.href = URL.createObjectURL(patchedExecutable);
 				link.download = `patched_${file.name}`;
-				document.getElementById("container").appendChild(link);
+				document.getElementById("container_fontRenderer").appendChild(link);
 				link.click();
 			
 				alert(`Found game: ${game}\nNew computed width: ${hex(widthPatchRes)}\nNew computed height: ${hex(heightPatchRes)}\nFontRenderer_00: ${widthOffset}\nFontRenderer_04: ${heightOffset}\nSuccess!`);
+			}
+			
+		};
+	};
+
+	reader.readAsArrayBuffer(file);
+});
+
+document.getElementById("fileInput_CRC").addEventListener("change", (event) => {
+	var file = event.target.files[0];
+	var reader = new FileReader();
+
+	reader.onload = (e) => {
+		var arrayBuffer = e.target.result;
+		var gameExecutable = new Uint8Array(arrayBuffer);
+	
+		var patchButton = document.getElementById("patch_CRC");
+		
+		patchButton.disabled = false;
+		patchButton.onclick = () => {
+			var crcOffset = findBytes(gameExecutable, [0x80, 0x3B, 0x00, 0x75, 0x23, 0x83]);
+		
+			if (crcOffset == -1)
+				alert(`Failed to find offsets, is your game executable already patched?`);
+			else
+			{
+				
+				for (var i = 0; i < 28; i++) {
+					gameExecutable[crcOffset + i] = 0x90;
+				}
+				
+				var patchedExecutable = new Blob([gameExecutable], { type: file.type });
+	
+				var link = document.createElement("a");
+				link.textContent = "Click here if the patched executable didn't start downloading";
+				link.href = URL.createObjectURL(patchedExecutable);
+				link.download = `patched_${file.name}`;
+				document.getElementById("container_CRC").appendChild(link);
+				link.click();
+			
+				alert(`CopyProtection_00: ${crcOffset}\nSuccess!`);
 			}
 			
 		};
