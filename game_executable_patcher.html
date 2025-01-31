@@ -4,7 +4,7 @@
 <table><thead>
 <tr>
 	<td align='right'><b>Executable:</b></td>
-	<td><input type="file" id="fileInput_fontRenderer" /><br></td>
+	<td><input type="file" id="fileInput_fontRenderer"/><br></td>
 </tr>
 <tr>
 	<td align='right'><b>Screen width (e.g 1920):</b></td>
@@ -26,7 +26,7 @@
 <table><thead>
 <tr>
 	<td align='right'><b>Executable:</b></td>
-	<td><input type="file" id="fileInput_CRC" /><br></td>
+	<td><input type="file" id="fileInput_CRC"/><br></td>
 </tr>
 <tr>
 	<td></td>
@@ -35,6 +35,20 @@
 </thead></table>
 <br>
 <div id="container_CRC"></div>
+<hr>
+<h2>Farming Simulator 2011/Ski Region Simulator 2012 DLC Patch:</h1>
+<table><thead>
+<tr>
+	<td align='right'><b>Executable:</b></td>
+	<td><input type="file" id="fileInput_DLC"/><br></td>
+</tr>
+<tr>
+	<td></td>
+	<td><button id="patch_DLC" disabled>Patch (FarmingSimulator2011|SkiRegionSimulator2012)game.exe</button></td>
+</tr>
+</thead></table>
+<br>
+<div id="container_DLC"></div>
 <hr>
 
 <a href="http://biskupova.televiziastb.sk/">Morc</a> @ <a href="http://370.network">370network</a> & <a href="https://komeo.xyz/ls2009mods">LS 2009 Mods Archive</a>
@@ -180,6 +194,47 @@ document.getElementById("fileInput_CRC").addEventListener("change", (event) => {
 				link.click();
 			
 				alert(`CopyProtection_00: ${crcOffset}\nSuccess!`);
+			}
+			
+		};
+	};
+
+	reader.readAsArrayBuffer(file);
+});
+
+document.getElementById("fileInput_DLC").addEventListener("change", (event) => {
+	var file = event.target.files[0];
+	var reader = new FileReader();
+
+	reader.onload = (e) => {
+		var arrayBuffer = e.target.result;
+		var gameExecutable = new Uint8Array(arrayBuffer);
+	
+		var patchButton = document.getElementById("patch_DLC");
+		
+		patchButton.disabled = false;
+		patchButton.onclick = () => {
+			var dlcOffset = findBytes(gameExecutable, [0x88, 0x5E, 0x44, 0x89, 0x5E, 0x48, 0x89, 0x5E, 0x4C]);
+			
+			if (dlcOffset == -1)
+				alert(`Failed to find offsets, is your game executable already patched?`);
+			else
+			{
+				var dlcPatch = [0x88, 0x4E, 0x44, 0x89, 0x4E, 0x48, 0x89, 0x4E, 0x4C];
+				for (var i = 0; i < dlcPatch.length; i++) {
+					gameExecutable[dlcOffset + i] = dlcPatch[i];
+				}
+				
+				var patchedExecutable = new Blob([gameExecutable], { type: file.type });
+	
+				var link = document.createElement("a");
+				link.textContent = "Click here if the patched executable didn't start downloading";
+				link.href = URL.createObjectURL(patchedExecutable);
+				link.download = `patched_${file.name}`;
+				document.getElementById("container_DLC").appendChild(link);
+				link.click();
+			
+				alert(`Activation_00: ${dlcOffset}\nSuccess!`);
 			}
 			
 		};
