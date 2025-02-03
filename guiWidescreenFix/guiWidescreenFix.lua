@@ -1,9 +1,10 @@
 -- guiWidescreenFix.lua
-local guiWF_version = "v0.2.2"
+local guiWF_version = "v0.2.3"
 -- @author  Richard Gráčik @ 370network (mailto:morc@370.network)
 -- @author  LS Mods Community (https://komeo.xyz/ls2009mods)
--- @date  27.1.2025 - 28.1.2025
+-- @date  27.1.2025 - 28.1.2025 - Initial release, LS2009 support
 --        1.2.2025 - LS2011 support using the reGIANTS Bootstrapper
+--        2.2.2025 - revised LS2011 & SRS2012 support, no Bootstrapper requirement anymore
 
 function guiWF_print(text)
 	print("[guiWidescreenFix " .. guiWF_version .. "] " .. text)
