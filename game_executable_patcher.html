@@ -113,7 +113,7 @@ document.getElementById("fileInput_fontRenderer").addEventListener("change", (ev
 			var widthOffset13_32bit = findBytes(gameExecutable, [0xC7, 0x03, 0x80, 0x02, 0x00, 0x00]);
 			var heightOffset13_32bit = findBytes(gameExecutable, [0xC7, 0x43, 0x04, 0xE0, 0x01, 0x00, 0x00]);
 
-			var widthOffset13_64bit = findBytes(gameExecutable, [0xC7, 0x02, 0x80, 0x02, 0x00, 0x00]);
+			var widthOffset13_64bit = findBytes(gameExecutable, [0xC7, 0x07, 0x80, 0x02, 0x00, 0x00]);
 			var heightOffset13_64bit = findBytes(gameExecutable, [0xC7, 0x47, 0x04, 0xE0, 0x01, 0x00, 0x00]);
 			
 			var game = "";
@@ -136,7 +136,7 @@ document.getElementById("fileInput_fontRenderer").addEventListener("change", (ev
 			}
 			else if (widthOffset13_64bit != -1 && heightOffset13_64bit != -1)
 			{
-				var widthPatchBase = [0xC7, 0x02];
+				var widthPatchBase = [0xC7, 0x07];
 				var heightPatchBase = [0xC7, 0x47, 0x04];
 				var widthOffset = widthOffset13_64bit;
 				var heightOffset = heightOffset13_64bit;
