@@ -39,7 +39,7 @@
 </div>
 <hr>
 <div id="container_DLC">
-	<h2>Farming Simulator 2011, Demolition Company & Ski Region Simulator 2012 DLC Patch:</h1>
+	<h2>Farming Simulator 2011/2013, Demolition Company & Ski Region Simulator 2012 DLC Patch:</h1>
 	<table><thead>
 		<tr>
 			<td align='right'><b>Executable:</b></td>
@@ -67,6 +67,7 @@
 // 30.01.2025 - LS2011 dataS.gar CRC check patch
 // 31.01.2025 - LS2011/SRS2012 DLC patch
 // 05.02.2025 - DC DLC patch
+// 06.02.2025 - LS2013 64bit FontRenderer patch, LS2013 64bit DLC patch
 
 function hex(inputArray)
 {
@@ -109,8 +110,11 @@ document.getElementById("fileInput_fontRenderer").addEventListener("change", (ev
 			var widthOffset0811 = findBytes(gameExecutable, [0xC7, 0x06, 0x80, 0x02, 0x00, 0x00]);
 			var heightOffset0811 = findBytes(gameExecutable, [0xC7, 0x46, 0x04, 0xE0, 0x01, 0x00, 0x00]);
 			
-			var widthOffset13 = findBytes(gameExecutable, [0xC7, 0x03, 0x80, 0x02, 0x00, 0x00]);
-			var heightOffset13 = findBytes(gameExecutable, [0xC7, 0x43, 0x04, 0xE0, 0x01, 0x00, 0x00]);
+			var widthOffset13_32bit = findBytes(gameExecutable, [0xC7, 0x03, 0x80, 0x02, 0x00, 0x00]);
+			var heightOffset13_32bit = findBytes(gameExecutable, [0xC7, 0x43, 0x04, 0xE0, 0x01, 0x00, 0x00]);
+
+			var widthOffset13_64bit = findBytes(gameExecutable, [0xC7, 0x02, 0x80, 0x02, 0x00, 0x00]);
+			var heightOffset13_64bit = findBytes(gameExecutable, [0xC7, 0x47, 0x04, 0xE0, 0x01, 0x00, 0x00]);
 			
 			var game = "";
 			
@@ -122,13 +126,21 @@ document.getElementById("fileInput_fontRenderer").addEventListener("change", (ev
 				var heightOffset = heightOffset0811;
 				game = "LS2008-2011,DC,SRS2012";
 			}
-			else if (widthOffset13 != -1 && heightOffset13 != -1)
+			else if (widthOffset13_32bit != -1 && heightOffset13_32bit != -1)
 			{
 				var widthPatchBase = [0xC7, 0x03];
 				var heightPatchBase = [0xC7, 0x43, 0x04];
-				var widthOffset = widthOffset13;
-				var heightOffset = heightOffset13;
-				game = "LS2013";
+				var widthOffset = widthOffset13_32bit;
+				var heightOffset = heightOffset13_32bit;
+				game = "LS2013_32bit";
+			}
+			else if (widthOffset13_64bit != -1 && heightOffset13_64bit != -1)
+			{
+				var widthPatchBase = [0xC7, 0x02];
+				var heightPatchBase = [0xC7, 0x47, 0x04];
+				var widthOffset = widthOffset13_64bit;
+				var heightOffset = heightOffset13_64bit;
+				game = "LS2013_64bit";
 			}
 		
 			if (game == "")
@@ -221,7 +233,10 @@ document.getElementById("fileInput_DLC").addEventListener("change", (event) => {
 		patchButton.onclick = () => {
 			var LSSRSdlcOffset = findBytes(gameExecutable, [0x88, 0x5E, 0x44, 0x89, 0x5E, 0x48, 0x89, 0x5E, 0x4C]);
 			var DCdlcOffset = findBytes(gameExecutable, [0xF0, 0xFF, 0x88, 0x5E, 0x44]);
+			var LS201332bitdlcOffset = findBytes(gameExecutable, [0xC6, 0x46, 0x44, 0x00, 0xC7]);
+			var LS201364bitdlcOffset = findBytes(gameExecutable, [0xC6, 0x44, 0x24, 0x60, 0x00]);
 
+			
 			var game = "";
 			
 			if (LSSRSdlcOffset != -1)
@@ -235,6 +250,18 @@ document.getElementById("fileInput_DLC").addEventListener("change", (event) => {
 				var dlcPatch = [0xF0, 0xFF, 0x88, 0x4E, 0x44];
 				var dlcOffset = DCdlcOffset;
 				game = "DC";
+			}
+			else if (LS201332bitdlcOffset != -1)
+			{
+				var dlcPatch = [0xC6, 0x46, 0x44, 0xFF, 0xC7];
+				var dlcOffset = LS201332bitdlcOffset;
+				game = "LS2013_32bit";
+			}
+			else if (LS201364bitdlcOffset != -1)
+			{
+				var dlcPatch = [0xC6, 0x44, 0x24, 0x60, 0xFF];
+				var dlcOffset = LS201364bitdlcOffset;
+				game = "LS2013_64bit";
 			}
 		
 			if (game == "")
