@@ -63,9 +63,10 @@
 // second revision of a javascript based patcher
 // Richard Gráčik @ 370network (morc@370.network)
 // LS Mods Community (https://komeo.xyz/ls2009mods)
-// 29.1.2025 - initial patcher, LS2009 FontRenderer scaling patch
-// 30.1.2025 - LS2011 dataS.gar CRC check patch
-// 31.1.2025 - LS2011/SRS2012 DLC patch
+// 29.01.2025 - initial patcher, LS2009 FontRenderer scaling patch
+// 30.01.2025 - LS2011 dataS.gar CRC check patch
+// 31.01.2025 - LS2011/SRS2012 DLC patch
+// 05.02.2025 - DC DLC patch
 
 function hex(inputArray)
 {
@@ -218,13 +219,28 @@ document.getElementById("fileInput_DLC").addEventListener("change", (event) => {
 		
 		patchButton.disabled = false;
 		patchButton.onclick = () => {
-			var dlcOffset = findBytes(gameExecutable, [0x88, 0x5E, 0x44, 0x89, 0x5E, 0x48, 0x89, 0x5E, 0x4C]);
+			var LSSRSdlcOffset = findBytes(gameExecutable, [0x88, 0x5E, 0x44, 0x89, 0x5E, 0x48, 0x89, 0x5E, 0x4C]);
+			var DCdlcOffset = findBytes(gameExecutable, [0xF0, 0xFF, 0x88, 0x5E, 0x44]);
+
+			var game = "";
 			
-			if (dlcOffset == -1)
+			if (dlcOffset != -1)
+			{
+				var dlcPatch = [0x88, 0x4E, 0x44, 0x89, 0x4E, 0x48, 0x89, 0x4E, 0x4C];
+				var dlcOffset = LSSRSdlcOffset;
+				game = "LS2011,SRS2012";
+			}
+			else if (DCdlcOffset != -1)
+			{
+				var dlcPatch = [0xF0, 0xFF, 0x88, 0x4E, 0x44];
+				var dlcOffset = DCdlcOffset;
+				game = "DC";
+			}
+		
+			if (game == "")
 				alert(`Failed to find offsets, is your game executable already patched?`);
 			else
 			{
-				var dlcPatch = [0x88, 0x4E, 0x44, 0x89, 0x4E, 0x48, 0x89, 0x4E, 0x4C];
 				for (var i = 0; i < dlcPatch.length; i++) {
 					gameExecutable[dlcOffset + i] = dlcPatch[i];
 				}
@@ -238,7 +254,7 @@ document.getElementById("fileInput_DLC").addEventListener("change", (event) => {
 				document.getElementById("container_DLC").appendChild(link);
 				link.click();
 			
-				alert(`Activation_00: ${dlcOffset}\nSuccess!`);
+				alert(`Found game: ${game}\nActivation_00: ${dlcOffset}\nSuccess!`);
 			}
 			
 		};
